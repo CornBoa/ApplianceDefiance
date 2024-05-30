@@ -13,6 +13,11 @@ public class SentryTest : MonoBehaviour , ISentry
     public List<Transform> EnemyQueue = new List<Transform>();
     public List<GameObject> meshesObjects;
     float HP = 10;
+    float hunger = 10;
+    public float hungerModifier;
+    public GameObject Projectile;
+    float nextFireTime;
+    public float fireRate;
     void Start()
     {
         SphereCollider = GetComponent<SphereCollider>();
@@ -36,6 +41,11 @@ public class SentryTest : MonoBehaviour , ISentry
             Quaternion lookDirection = Quaternion.LookRotation(dir);
             Vector3 rotation = lookDirection.eulerAngles;
             RotatingPiece.rotation = Quaternion.Euler(0, rotation.y, 0);
+        }
+        if (Time.time >= nextFireTime && hunger > 0 && Target != null)
+        {
+            nextFireTime = Time.time + fireRate;
+            Shoot();
         }
     }
     private void OnTriggerEnter(Collider other)
@@ -76,5 +86,11 @@ public class SentryTest : MonoBehaviour , ISentry
     public void TakeDMG()
     {
         throw new System.NotImplementedException();
+    }
+    void Shoot()
+    {
+        FleshProjectile projectile = Instantiate(Projectile, transform.position, Quaternion.identity).GetComponent<FleshProjectile>();
+        projectile.Target = Target;
+        hunger -= 1 * hungerModifier;
     }
 }

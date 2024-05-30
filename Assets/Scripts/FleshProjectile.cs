@@ -5,6 +5,7 @@ using UnityEngine;
 public class FleshProjectile : MonoBehaviour
 {
     public Transform Target;
+    public float speed;
     public enum KindOfProjectile
     {
         Teeth,
@@ -16,9 +17,10 @@ public class FleshProjectile : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        transform.LookAt(Target.position);
+        Vector3 movement = new Vector3(0, 0, transform.position.z) * speed * Time.deltaTime;
+        transform.Translate(movement);
     }
 }

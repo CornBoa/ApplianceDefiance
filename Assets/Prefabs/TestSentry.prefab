@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 66289318ac993e641955dc49a72bb75f, type: 2}
+  - {fileID: 2100000, guid: 69ee1c147544ccf48955f7c3b92b8245, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -168,7 +168,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0bffb9a067673f343a01d2857d870d68, type: 2}
+  - {fileID: 2100000, guid: cbb437ce9be4ad743a98f3990ba3f844, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -253,7 +253,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 66289318ac993e641955dc49a72bb75f, type: 2}
+  - {fileID: 2100000, guid: 69ee1c147544ccf48955f7c3b92b8245, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -347,11 +347,13 @@ MonoBehaviour:
   Target: {fileID: 0}
   RotatingPiece: {fileID: 6374526264362415077}
   RangeVis: {fileID: 5200918291019062681}
-  RadiusVis: {fileID: 777754504541937661}
   EnemyQueue: []
   meshesObjects:
   - {fileID: 7017056363262220538}
   - {fileID: 3276942559924027325}
+  hungerModifier: 0
+  Projectile: {fileID: 0}
+  fireRate: 0
 --- !u!135 &8531628340566992331
 SphereCollider:
   m_ObjectHideFlags: 0
