@@ -18,30 +18,31 @@ public class EnemyTest : MonoBehaviour , IEnemy
     }
     void Start()
     {
-        currentWaypoint = waypoints[i];
+        
     }
     void Update()
     {
-        
-        if (Vector3.Distance(transform.position, currentWaypoint.position) <= 0.2f)
+       if(waypoints.Count > 0)
         {
-            if(currentWaypoint == waypoints[waypoints.Count-1])Destroy(gameObject);
-            else GetNextPoint();
-        }
-        if(Vector3.Distance(transform.position, currentWaypoint.position) >= 0.2f) reachedTarget = false;
-        if(!reachedTarget && facingTarget) 
-        {
-            transform.Translate(Vector3.forward * speed * Time.deltaTime);
-        }
-        if(!reachedTarget && !facingTarget) 
-        {
-            var lookPos = currentWaypoint.position - transform.position;
-            lookPos.y = 0;
-            var rotation = Quaternion.LookRotation(lookPos);
-            transform.rotation = Quaternion.Lerp(transform.rotation, rotation,damping);
-            StartCoroutine(WaitTillFacing(Quaternion.Lerp(transform.rotation, rotation, 1)));
-        }
-        
+            if (Vector3.Distance(transform.position, currentWaypoint.position) <= 0.2f)
+            {
+                if (currentWaypoint == waypoints[waypoints.Count - 1]) Destroy(gameObject);
+                else GetNextPoint();
+            }
+            if (Vector3.Distance(transform.position, currentWaypoint.position) >= 0.2f) reachedTarget = false;
+            if (!reachedTarget && facingTarget)
+            {
+                transform.Translate(Vector3.forward * speed * Time.deltaTime);
+            }
+            if (!reachedTarget && !facingTarget)
+            {
+                var lookPos = currentWaypoint.position - transform.position;
+                lookPos.y = 0;
+                var rotation = Quaternion.LookRotation(lookPos);
+                transform.rotation = Quaternion.Lerp(transform.rotation, rotation, damping);
+                StartCoroutine(WaitTillFacing(Quaternion.Lerp(transform.rotation, rotation, 1)));
+            }
+        }     
     }
     void GetNextPoint()
     {
@@ -54,5 +55,11 @@ public class EnemyTest : MonoBehaviour , IEnemy
     {
         yield return new WaitUntil(() => transform.rotation == rot);
         facingTarget = true;
+    }
+
+    public void SetLayout(MapLayout map)
+    {
+        waypoints = map.ReturnList();
+        currentWaypoint = waypoints[i];
     }
 }
