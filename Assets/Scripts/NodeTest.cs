@@ -40,6 +40,7 @@ public class NodeTest : MonoBehaviour
         {
             sentryInstalled = Instantiate(BuildingManager.Instance.currentSentry.GetGO(), transform.position, transform.rotation).GetComponent<ISentry>();
             occupied = true;
+            sentryInstalled.Activate();
             foreach (GameObject mesh in sentryInstalled.GetMeshes())
             {
                 mesh.GetComponent<MeshRenderer>().material.color = Color.gray;

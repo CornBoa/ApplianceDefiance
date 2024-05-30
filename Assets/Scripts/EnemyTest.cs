@@ -15,6 +15,10 @@ public class EnemyTest : MonoBehaviour , IEnemy
     public void TakeDMG(int DMG)
     {
         HP -= DMG;
+        if(HP <= 0) 
+        {
+            Destroy(gameObject);
+        }
     }
     void Start()
     {

@@ -5,7 +5,6 @@ using UnityEngine;
 public class SentryTest : MonoBehaviour , ISentry
 {   
     private float Range;
-    [Range(0, 15)]
     public float PublicRange;
     public Transform Target,RotatingPiece;
     SphereCollider SphereCollider;
@@ -13,12 +12,12 @@ public class SentryTest : MonoBehaviour , ISentry
     public List<Transform> EnemyQueue = new List<Transform>();
     public List<GameObject> meshesObjects;
     float HP = 10;
-    float hunger = 10;
+    public float hunger = 10;
     public float hungerModifier;
     public GameObject Projectile;
     float nextFireTime;
     public float fireRate;
-    void Start()
+    private void OnEnable()
     {
         SphereCollider = GetComponent<SphereCollider>();
         Range = PublicRange;
@@ -92,5 +91,10 @@ public class SentryTest : MonoBehaviour , ISentry
         FleshProjectile projectile = Instantiate(Projectile, transform.position, Quaternion.identity).GetComponent<FleshProjectile>();
         projectile.Target = Target;
         hunger -= 1 * hungerModifier;
+    }
+
+    public void Activate()
+    {
+        enabled = true;
     }
 }

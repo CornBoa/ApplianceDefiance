@@ -6,6 +6,7 @@ public class FleshProjectile : MonoBehaviour
 {
     public Transform Target;
     public float speed;
+    public int DMG;
     public enum KindOfProjectile
     {
         Teeth,
@@ -19,8 +20,23 @@ public class FleshProjectile : MonoBehaviour
 
     private void Update()
     {
-        transform.LookAt(Target.position);
-        Vector3 movement = new Vector3(0, 0, transform.position.z) * speed * Time.deltaTime;
-        transform.Translate(movement);
+        if (Target == null)
+        {
+            Destroy(gameObject);
+        }
+        else if (Target != null)
+        {
+            transform.LookAt(Target.position);
+            Vector3 movement = new Vector3(0, 0, transform.position.z) * speed * Time.deltaTime;
+            transform.Translate(movement);
+        }
+        
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            other.GetComponent<IEnemy>().TakeDMG(DMG);
+        }
     }
 }
