@@ -2,20 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SentryTest : MonoBehaviour
+public class SentryTest : MonoBehaviour , ISentry
 {   
     private float Range;
     [Range(0, 15)]
     public float PublicRange;
     public Transform Target,RotatingPiece;
     SphereCollider SphereCollider;
-    public Transform RadiusVis;
+    public GameObject RangeVis;
     public List<Transform> EnemyQueue = new List<Transform>();
+    public List<GameObject> meshesObjects;
+    float HP = 10;
     void Start()
     {
         SphereCollider = GetComponent<SphereCollider>();
         Range = PublicRange;
-        RadiusVis.localScale = new Vector3(PublicRange, 1, PublicRange);
+        RangeVis.transform.localScale = new Vector3(PublicRange, 1, PublicRange);
         SphereCollider.radius = Range / 2;
     }
 
@@ -25,7 +27,7 @@ public class SentryTest : MonoBehaviour
         if (PublicRange != Range)
         {
             Range = PublicRange;
-            RadiusVis.localScale = new Vector3(PublicRange, 1, PublicRange);
+            RangeVis.transform.localScale = new Vector3(PublicRange, 1, PublicRange);
             SphereCollider.radius = Range / 2;
         }
         if (EnemyQueue.Count != 0 && Target != null) 
@@ -55,5 +57,24 @@ public class SentryTest : MonoBehaviour
                 if(EnemyQueue.Count > 0) Target = EnemyQueue[0];
             }               
         }
+    }
+
+    public List<GameObject> GetMeshes()
+    {
+        return meshesObjects;
+    }
+    public GameObject GetGO()
+    {
+        return gameObject;
+    }
+
+    public GameObject GetRangeVisual()
+    {
+        return RangeVis;
+    }
+
+    public void TakeDMG()
+    {
+        throw new System.NotImplementedException();
     }
 }
