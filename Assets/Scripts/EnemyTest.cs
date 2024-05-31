@@ -12,6 +12,7 @@ public class EnemyTest : MonoBehaviour , IEnemy
     public float damping =2;
     int i = 0;
     public float speed;
+    public int HouseDMG, SentryDMG;
     public void TakeDMG(int DMG)
     {
         HP -= DMG;
@@ -30,7 +31,10 @@ public class EnemyTest : MonoBehaviour , IEnemy
         {
             if (Vector3.Distance(transform.position, currentWaypoint.position) <= 0.3f)
             {
-                if (currentWaypoint == waypoints[waypoints.Count - 1]) Destroy(gameObject);
+                if (currentWaypoint == waypoints[waypoints.Count - 1])
+                {
+                    DealHouseDMG(HouseDMG);
+                }
                 else GetNextPoint();
             }
             if (Vector3.Distance(transform.position, currentWaypoint.position) >= 0.3f) reachedTarget = false;
@@ -65,5 +69,16 @@ public class EnemyTest : MonoBehaviour , IEnemy
     {
         waypoints = map.ReturnList();
         currentWaypoint = waypoints[i];
+    }
+
+    public void DealSentryDMG(int DMG)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void DealHouseDMG(int DMG)
+    {
+        GaymeManager.Instance.TakeDMG(DMG);
+        Destroy(gameObject);
     }
 }

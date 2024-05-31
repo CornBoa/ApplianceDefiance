@@ -12,17 +12,10 @@ public class DragandDrop : MonoBehaviour,IBeginDragHandler, IEndDragHandler,IDra
     public float satisfaction;
     Vector3 startPos;
     public NodeTest TargetNode;
-    private void Start()
+    private void Awake()
     {
         startPos = transform.position;
-        if (instance == null)
-        {
-            instance = this;            
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        instance = this;            
     }
 
     public void OnDrag(PointerEventData eventData)

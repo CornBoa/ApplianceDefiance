@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -8,10 +9,14 @@ public class BuildingManager : MonoBehaviour
     public static BuildingManager Instance;
     public List<GameObject> publicSentries;
     List<ISentry> listOfSentries = new List<ISentry>();
+    public List<int> Prices = new List<int>();
     public static int Material;
     public ISentry currentSentry;
     public NodeTest currentNode;
     public bool buildMode = true;
+    int buildingIndex = 0;
+    public int bioMaterial = 0;
+    public TextMeshProUGUI MunehTextTempor;
     void Awake()
     {
         if (Instance == null)
@@ -31,6 +36,7 @@ public class BuildingManager : MonoBehaviour
             ISentry sentry = entry.GetComponent<ISentry>();
             if(sentry != null) listOfSentries.Add(sentry);
         }
+        MunehTextTempor.text = bioMaterial.ToString();
     }
     private void Update()
     {
@@ -53,5 +59,21 @@ public class BuildingManager : MonoBehaviour
     public void SentryUnset()
     {
         currentSentry = null;
+    }
+    public void MoneySpend()
+    {
+        bioMaterial -= Prices[buildingIndex];
+        MunehTextTempor.text = bioMaterial.ToString();
+    }
+    public bool IsEnoughMoney()
+    {
+        if (bioMaterial >= Prices[buildingIndex])
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }
