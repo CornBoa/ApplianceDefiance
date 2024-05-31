@@ -80,7 +80,7 @@ MonoBehaviour:
   facingTarget: 0
   reachedTarget: 0
   damping: 0.04
-  speed: 41.1
+  speed: 10
   HouseDMG: 1
   SentryDMG: 0
 --- !u!54 &-246516815937455036

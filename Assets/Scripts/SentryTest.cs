@@ -93,9 +93,9 @@ public class SentryTest : MonoBehaviour , ISentry
         return RangeVis;
     }
 
-    public void TakeDMG()
+    public void TakeDMG(int DMG)
     {
-        throw new System.NotImplementedException();
+        HP -= DMG;
     }
     void Shoot()
     {

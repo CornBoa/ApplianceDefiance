@@ -7,7 +7,7 @@ public interface ISentry
     abstract public List<GameObject> GetMeshes();
     abstract public GameObject GetGO();
     abstract public GameObject GetRangeVisual();
-    abstract void TakeDMG();
+    abstract void TakeDMG(int DMG);
     abstract void Activate();
     abstract void Feed(float foodAmount);
 }
