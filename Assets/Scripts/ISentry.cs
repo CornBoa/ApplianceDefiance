@@ -9,4 +9,5 @@ public interface ISentry
     abstract public GameObject GetRangeVisual();
     abstract void TakeDMG();
     abstract void Activate();
+    abstract void Feed(float foodAmount);
 }

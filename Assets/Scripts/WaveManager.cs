@@ -39,7 +39,6 @@ public class WaveManager : MonoBehaviour
                 if (Time.time >= nextSpawnTimes[i])
                 {
                     SpawnEnemy(i);
-                    Debug.Log("Pee");
                     nextSpawnTimes[i] = Time.time + currentGroup.spawnIntervals[i];
                 }
             }

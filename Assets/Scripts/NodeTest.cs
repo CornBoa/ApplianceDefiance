@@ -6,12 +6,14 @@ public class NodeTest : MonoBehaviour
 {
     public bool occupied,buffer,road;
     Renderer rend;
-    ISentry sentryInstalled;
+    public ISentry sentryInstalled;
     GameObject sentryHolo;
+    DragandDrop Meat;
     void Start()
     {
         rend = GetComponent<Renderer>();
         if(road) rend.material.color = Color.black;
+        Meat = DragandDrop.instance;
     }
 
     private void OnMouseEnter()
@@ -24,6 +26,12 @@ public class NodeTest : MonoBehaviour
                 if (sentryHolo == null) sentryHolo = Instantiate(BuildingManager.Instance.currentSentry.GetGO(), transform.position, transform.rotation);
             }
             else if (BuildingManager.Instance.currentSentry != null) rend.material.color = Color.red;
+            if (Meat.beingDragged && sentryInstalled != null)
+            {
+                Meat.TargetNode = this;
+                rend.material.color = Color.blue;
+            }
+            if(BuildingManager.Instance.buildMode) BuildingManager.Instance.currentNode = this;
         }            
     }
     private void OnMouseExit()
@@ -32,6 +40,8 @@ public class NodeTest : MonoBehaviour
         {
             Destroy(sentryHolo);
             rend.material.color = Color.gray;
+            if(Meat.TargetNode == this) Meat.TargetNode = null;
+            if (BuildingManager.Instance.currentNode == this) BuildingManager.Instance.currentNode = null ;
         }   
     }
     private void OnMouseDown()
@@ -47,6 +57,8 @@ public class NodeTest : MonoBehaviour
             }
             GameObject RangeVis  = sentryInstalled.GetRangeVisual();
             RangeVis.SetActive(false);
+            Destroy(sentryHolo);
+            rend.material.color = Color.red;
         }
         
     }

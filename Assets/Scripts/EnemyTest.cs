@@ -28,12 +28,12 @@ public class EnemyTest : MonoBehaviour , IEnemy
     {
        if(waypoints.Count > 0)
         {
-            if (Vector3.Distance(transform.position, currentWaypoint.position) <= 0.2f)
+            if (Vector3.Distance(transform.position, currentWaypoint.position) <= 0.3f)
             {
                 if (currentWaypoint == waypoints[waypoints.Count - 1]) Destroy(gameObject);
                 else GetNextPoint();
             }
-            if (Vector3.Distance(transform.position, currentWaypoint.position) >= 0.2f) reachedTarget = false;
+            if (Vector3.Distance(transform.position, currentWaypoint.position) >= 0.3f) reachedTarget = false;
             if (!reachedTarget && facingTarget)
             {
                 transform.Translate(Vector3.forward * speed * Time.deltaTime);

@@ -10,6 +10,8 @@ public class BuildingManager : MonoBehaviour
     List<ISentry> listOfSentries = new List<ISentry>();
     public static int Material;
     public ISentry currentSentry;
+    public NodeTest currentNode;
+    public bool buildMode = true;
     void Awake()
     {
         if (Instance == null)
@@ -30,8 +32,22 @@ public class BuildingManager : MonoBehaviour
             if(sentry != null) listOfSentries.Add(sentry);
         }
     }
+    private void Update()
+    {
+        if (Input.GetMouseButtonUp(1))
+        {
+            currentSentry = null;
+            buildMode = false;
+        }
+
+    }
+    public void EngageBuildMode()
+    {
+        buildMode = true;
+    }
     public void SetSentry(int index)
     {
+        buildMode = true;
         currentSentry = listOfSentries[index];
     }
     public void SentryUnset()
