@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SentryTest : MonoBehaviour , ISentry
+public class TeethSentry : MonoBehaviour , ISentry
 {   
     private float Range;
     public float PublicRange;
