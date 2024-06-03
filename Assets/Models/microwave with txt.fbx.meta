@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a17a4ee77e3464448ab77eb0fa30d5ab
+guid: 366b55e0f39ce7544b6ecdfcecd3ba06
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,23 +7,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: vacuum
-    second: {fileID: 2100000, guid: 6e795430c4be39b4695a5d254cf9f45d, type: 2}
+      name: GRAY
+    second: {fileID: 2100000, guid: b3728bf2af599ad42a5f2da354798f7c, type: 2}
   - first:
-      type: UnityEngine:Texture2D
+      type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: vacuum_diff
-    second: {fileID: 2800000, guid: dda55a8c46ac90b499ca057b328b9699, type: 3}
+      name: NUMBERS
+    second: {fileID: 2100000, guid: 5db0ef6fbbd050542bb988f1f5cfd7c8, type: 2}
   - first:
-      type: UnityEngine:Texture2D
+      type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: vacuum_metal
-    second: {fileID: 2800000, guid: 76a6e1af80ca1d5469a7412e988174ce, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: vacuum_rough
-    second: {fileID: 2800000, guid: 061677a04294e364bb99696bc4c4c8f5, type: 3}
+      name: microwave
+    second: {fileID: 2100000, guid: 628b175b1713b2b4ab88e8686b35a2d4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -67,7 +62,7 @@ ModelImporter:
     importLights: 1
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
-    swapUVChannels: 1
+    swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
