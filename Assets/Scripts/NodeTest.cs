@@ -9,11 +9,14 @@ public class NodeTest : MonoBehaviour
     public ISentry sentryInstalled;
     GameObject sentryHolo;
     public DragandDrop Meat;
+    AudioSource PlapSource;
+    public AudioClip PlapClip;
     void Start()
     {
         rend = GetComponent<Renderer>();
         if(road) rend.material.color = Color.black;
         Meat = DragandDrop.instance;
+        PlapSource = GetComponentInParent<AudioSource>();
     }
 
     private void OnMouseEnter()
@@ -59,6 +62,8 @@ public class NodeTest : MonoBehaviour
             RangeVis.SetActive(false);
             Destroy(sentryHolo);
             rend.material.color = Color.red;
+            PlapSource.pitch = Random.Range(0.95f, 1.1f);
+            PlapSource.PlayOneShot(PlapClip);
             BuildingManager.Instance.MoneySpend();
         }
         

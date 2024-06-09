@@ -17,6 +17,8 @@ public class BuildingManager : MonoBehaviour
     int buildingIndex = 0;
     public int bioMaterial = 0;
     public TextMeshProUGUI MunehTextTempor;
+    public AudioClip PickSound;
+    AudioSource PickSource;
     void Awake()
     {
         if (Instance == null)
@@ -36,6 +38,7 @@ public class BuildingManager : MonoBehaviour
             ISentry sentry = entry.GetComponent<ISentry>();
             if(sentry != null) listOfSentries.Add(sentry);
         }
+        PickSource = GetComponent<AudioSource>();
         MunehTextTempor.text = bioMaterial.ToString();
     }
     private void Update()
@@ -53,6 +56,7 @@ public class BuildingManager : MonoBehaviour
     }
     public void SetSentry(int index)
     {
+        PickSource.PlayOneShot(PickSound);
         buildMode = true;
         currentSentry = listOfSentries[index];
     }

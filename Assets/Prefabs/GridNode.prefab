@@ -119,3 +119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   occupied: 0
+  buffer: 0
+  road: 0
+  Meat: {fileID: 0}
+  PlapClip: {fileID: 8300000, guid: 0a9112972feb7b749a27c85378db70e8, type: 3}

@@ -7,12 +7,6 @@ public class FleshProjectile : MonoBehaviour
     public Transform Target;
     public float speed;
     public int DMG;
-    public enum KindOfProjectile
-    {
-        Teeth,
-        Rot,
-        Napalm
-    }
     void Start()
     {
         
