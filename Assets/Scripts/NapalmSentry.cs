@@ -68,6 +68,12 @@ public class NapalmSentry : MonoBehaviour , ISentry
                     Target = null;
                 }
             }
+            if (Target != null && Vector3.Distance(transform.position, Target.position) > UsableRange / 2)
+            {
+                Target = null;
+                EnemyQueue.Remove(Target);
+                if (EnemyQueue.Count > 0) Target = EnemyQueue[0];
+            }
         }
         UsableRange = StatRange;
     }
@@ -108,7 +114,7 @@ public class NapalmSentry : MonoBehaviour , ISentry
             {
                 EnemyQueue.Add(other.transform);
             }
-            if (EnemyQueue[0] != null) Target = EnemyQueue[0];
+            if (EnemyQueue.Count > 0) Target = EnemyQueue[0];
         }
 
     }
@@ -122,7 +128,7 @@ public class NapalmSentry : MonoBehaviour , ISentry
         GameObject Projectile = Instantiate(Projectiles[Random.Range(0, Projectiles.Count)],RotatingPiece.position,Quaternion.identity);
         Projectile.GetComponent<FlameProjectile>().napalmSentry = this;
         Rigidbody rb = Projectile.GetComponent<Rigidbody>();
-        rb.AddForce((Target.position - Projectile.transform.position) * 2,ForceMode.VelocityChange); 
+        rb.AddForce((new Vector3(Target.position.x, Target.position.y, Target.position.z) - Projectile.transform.position) * 2,ForceMode.VelocityChange); 
         hunger -= 1 * hungerModifier;
     }
 }

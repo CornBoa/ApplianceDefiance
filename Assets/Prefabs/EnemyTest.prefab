@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7047681490878814750}
   - component: {fileID: 140617100570137917}
   - component: {fileID: -246516815937455036}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EnemyTest
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -168,10 +168,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2163586824656254026, guid: 55313d298dd568b40bdeefc5b2391abd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3647670835052130404, guid: 55313d298dd568b40bdeefc5b2391abd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508388879016915084, guid: 55313d298dd568b40bdeefc5b2391abd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5151298718167815746, guid: 55313d298dd568b40bdeefc5b2391abd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6820349787434990346, guid: 55313d298dd568b40bdeefc5b2391abd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8166212355674470350, guid: 55313d298dd568b40bdeefc5b2391abd,
         type: 3}
       propertyPath: m_Name
       value: microwave with txt
+      objectReference: {fileID: 0}
+    - target: {fileID: 8166212355674470350, guid: 55313d298dd568b40bdeefc5b2391abd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

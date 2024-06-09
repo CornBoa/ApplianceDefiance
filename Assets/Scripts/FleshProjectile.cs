@@ -7,9 +7,9 @@ public class FleshProjectile : MonoBehaviour
     public Transform Target;
     public float speed;
     public int DMG;
+    Vector3 startpos;
     void Start()
     {
-        
     }
 
     private void Update()
