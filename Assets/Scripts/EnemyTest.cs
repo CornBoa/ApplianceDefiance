@@ -13,17 +13,21 @@ public class EnemyTest : MonoBehaviour , IEnemy
     int i = 0;
     public float speed;
     public int HouseDMG, SentryDMG;
+    WaveManager Mamah;
+    bool ded = false;
     public void TakeDMG(int DMG)
     {
         HP -= DMG;
         if(HP <= 0) 
         {
+            if (!ded) Mamah.enemiesSpawmned--;
+            ded = true;     
             Destroy(gameObject);
         }
     }
     void Start()
     {
-        
+        Mamah = GameObject.FindAnyObjectByType<WaveManager>();
     }
     void Update()
     {
@@ -79,6 +83,8 @@ public class EnemyTest : MonoBehaviour , IEnemy
     public void DealHouseDMG(int DMG)
     {
         GaymeManager.Instance.TakeDMG(DMG);
+        if (!ded) Mamah.enemiesSpawmned--;
+        ded = true;
         Destroy(gameObject);
     }
 }

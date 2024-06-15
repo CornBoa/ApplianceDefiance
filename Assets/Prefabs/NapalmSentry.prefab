@@ -84,7 +84,9 @@ MonoBehaviour:
   RotatingPiece: {fileID: 2171233245147508767}
   RangeVis: {fileID: 3291326179057062368}
   EnemyQueue: []
-  meshesObjects: []
+  meshesObjects:
+  - {fileID: 6329281426880746875}
+  - {fileID: 8562790269053306342}
   currentHP: 0
   hunger: 10
   hungerModifier: 0

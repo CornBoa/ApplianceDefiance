@@ -49,7 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   napalmSentry: {fileID: 0}
   ShrinkTime: 1
-  DMG: 0
+  DMG: 1
 --- !u!54 &4681032954428119791
 Rigidbody:
   m_ObjectHideFlags: 0

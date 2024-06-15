@@ -17,6 +17,7 @@ public class WaveManager : MonoBehaviour
     public float timeBetweenWaves;
     int waveIndex = 0;
     int groupIndex = 0;
+    public int enemiesSpawmned;
     public bool WaveGoing = false;
     void Start()
     {
@@ -52,8 +53,9 @@ public class WaveManager : MonoBehaviour
                 groupIndex++;
                 currentGroup = waves[waveIndex].groupsOfWave[groupIndex];
            }
-           else
+           else 
            {
+                yield return new WaitUntil(() => enemiesSpawmned == 0);
                 WaveGoing = false;
                 Debug.Log("OnWaveEndCalled");
                 currentWave.OnWaveEnd.Invoke();
@@ -81,6 +83,7 @@ public class WaveManager : MonoBehaviour
             IEnemy enemy = Instantiate(currentGroup.enemyPrefabs[index], spawnPosition.position, Quaternion.identity).GetComponent<IEnemy>();
             enemy.SetLayout(currentLayout);
             currentGroup.spawnAmount[index]--;
+            enemiesSpawmned++;
         }   
         else if(currentGroup.spawnAmount[index] == 0)
         {

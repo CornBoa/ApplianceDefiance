@@ -88,7 +88,7 @@ public class TeethSentryOne : MonoBehaviour , ISentry
             {
                 EnemyQueue.Add(other.transform);
             }
-            if (EnemyQueue[0] != null) Target = EnemyQueue[0];
+            if (EnemyQueue.Count > 0 && EnemyQueue[0] != null) Target = EnemyQueue[0];
         }
         
     }
