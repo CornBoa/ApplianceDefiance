@@ -5420,7 +5420,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1468373882}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: DisplayNextSentence
+        m_MethodName: DisplayNextSentenceMono
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18912,7 +18912,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1982838334}
-          m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+          m_TargetAssemblyTypeName: MonologueTrigger, Assembly-CSharp
           m_MethodName: TriggerDialogue
           m_Mode: 1
           m_Arguments:
@@ -24178,34 +24178,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1982838332}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97a420071af9d004aafac68488583e13, type: 3}
+  m_Script: {fileID: 11500000, guid: 537495ed39f94da4786dda435152c9c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Test folk
+    name: 
     sentences:
-    - Harro Everynyan
-    - I wish I were a bird
-    - I am going to burn America down!
+    - I tell you what tho
+    - Can I kill someone with one kickc to the nuts?
+    - Perfect murder plan!
     portraitsOrder:
     - {fileID: 21300000, guid: 1dc9e3fe97a60284492e9e1cb462a6ef, type: 3}
     - {fileID: 21300000, guid: cffda29cdb362024195598d5a56e3c26, type: 3}
     - {fileID: 21300000, guid: 3887cff5b6a519d4ab243a1d79f22591, type: 3}
   OnEnd:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1559382252}
-        m_TargetAssemblyTypeName: WaveManager, Assembly-CSharp
-        m_MethodName: StartWaveEnum
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1001 &1986647791
 PrefabInstance:
   m_ObjectHideFlags: 0

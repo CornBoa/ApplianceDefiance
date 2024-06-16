@@ -14,7 +14,7 @@ public class DialogueManager : MonoBehaviour
 	List<Sprite> dialoguePortraits;
 	public UnityEvent OnDIalogueEnd;
 	public Image Portrait;
-	DialogueTrigger CUrrentDialogue;
+	MonologueTrigger CUrrentDialogue;
 	public static bool DialogueON;
 	public static bool UnlockMovement;
 	public int portraitIndex = 0;
@@ -24,7 +24,7 @@ public class DialogueManager : MonoBehaviour
 		sentences = new Queue<string>();
         Cursor.lockState = CursorLockMode.Confined;
     }
-	public void StartDialogue (Dialogue dialogue,DialogueTrigger dialogueTrigger)
+	public void StartMonologue (Dialogue dialogue,MonologueTrigger dialogueTrigger)
 	{
 		RegUI.SetActive(false);
 		dialoguePortraits = dialogue.portraitsOrder;
@@ -39,10 +39,10 @@ public class DialogueManager : MonoBehaviour
 		{
 			sentences.Enqueue(sentence);
 		}
-		DisplayNextSentence();
+		DisplayNextSentenceMono();
 	}
 
-	public void DisplayNextSentence ()
+	public void DisplayNextSentenceMono ()
 	{		
 		Debug.Log("NextDialogue");
 		if (sentences.Count == 0)
@@ -67,7 +67,7 @@ public class DialogueManager : MonoBehaviour
 		}
 	}
 
-	void EndDialogue(DialogueTrigger dialogueTrigger)
+	void EndDialogue(MonologueTrigger dialogueTrigger)
 	{
         RegUI.SetActive(true);
         Time.timeScale = 1;

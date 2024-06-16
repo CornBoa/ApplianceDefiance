@@ -84,7 +84,7 @@ public class NapalmSentry : MonoBehaviour , ISentry
 
     public void Feed(float foodAmount)
     {
-        throw new System.NotImplementedException();
+        hunger += foodAmount;
     }
 
     public GameObject GetGO()
@@ -104,7 +104,7 @@ public class NapalmSentry : MonoBehaviour , ISentry
 
     public void TakeDMG(int DMG)
     {
-        throw new System.NotImplementedException();
+        currentHP -= DMG;
     }
     private void OnTriggerEnter(Collider other)
     {

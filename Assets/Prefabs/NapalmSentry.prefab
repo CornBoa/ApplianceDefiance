@@ -89,7 +89,7 @@ MonoBehaviour:
   - {fileID: 8562790269053306342}
   currentHP: 0
   hunger: 10
-  hungerModifier: 0
+  hungerModifier: 0.1
   Projectiles:
   - {fileID: 2036843423272177740, guid: cda1e7c2e87ab9f4c812e15322f78f4b, type: 3}
   - {fileID: 2036843423272177740, guid: 43768ad6e4a86524c9364d60511bc119, type: 3}
