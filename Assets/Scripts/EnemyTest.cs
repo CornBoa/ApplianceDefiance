@@ -15,9 +15,11 @@ public class EnemyTest : MonoBehaviour , IEnemy
     public int HouseDMG, SentryDMG;
     WaveManager Mamah;
     bool ded = false;
+    private ParticleSystem gothit;
     public void TakeDMG(int DMG)
     {
         HP -= DMG;
+        gothit.Play();
         if(HP <= 0) 
         {
             if (!ded) Mamah.enemiesSpawmned--;
@@ -27,6 +29,7 @@ public class EnemyTest : MonoBehaviour , IEnemy
     }
     void Start()
     {
+        gothit = GetComponentInChildren<ParticleSystem>();
         Mamah = GameObject.FindAnyObjectByType<WaveManager>();
     }
     void Update()
