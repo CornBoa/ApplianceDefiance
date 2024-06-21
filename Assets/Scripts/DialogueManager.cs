@@ -24,7 +24,7 @@ public class DialogueManager : MonoBehaviour
 		sentences = new Queue<string>();
         Cursor.lockState = CursorLockMode.Confined;
     }
-	public void StartMonologue (Dialogue dialogue,MonologueTrigger dialogueTrigger)
+	public void StartMonologue (Monologue dialogue,MonologueTrigger dialogueTrigger)
 	{
 		RegUI.SetActive(false);
 		dialoguePortraits = dialogue.portraitsOrder;

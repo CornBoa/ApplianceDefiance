@@ -78,6 +78,7 @@ public class Feeder : MonoBehaviour,ISentry
     public void Activate()
     {
         activated = true;
+        GetComponentInChildren<ParticleSystem>().Play();
         InvokeRepeating("FeedSentries", feedrate, feedrate);
     }
 

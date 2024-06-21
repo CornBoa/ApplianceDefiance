@@ -79,6 +79,7 @@ public class NapalmSentry : MonoBehaviour , ISentry
     }
     public void Activate()
     {
+        GetComponentInChildren<ParticleSystem>().Play();
         active = true;
     }
 
