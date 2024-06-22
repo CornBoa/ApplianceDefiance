@@ -4,70 +4,85 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Events;
+using System.Linq;
 
-public class DialogueManager : MonoBehaviour
+public class DialogueManager : MonoBehaviour 
 {	
 	public TextMeshProUGUI nameText;
 	public TextMeshProUGUI dialogueText;
 	public GameObject DialoguePanel;
 	private Queue<string> sentences;
-	List<Sprite> dialoguePortraits;
+	List<Sentence> sentenceList;
+	int sentenceIndex = 0;
 	public UnityEvent OnDIalogueEnd;
-	public Image Portrait;
-	MonologueTrigger CUrrentDialogue;
+	public Image Portrait,PortraitLeft;
+	DialogueTrigger CUrrentDialogue;
 	public static bool DialogueON;
 	public static bool UnlockMovement;
-	public int portraitIndex = 0;
 	public GameObject RegUI;
 	void Start () {
 		UnlockMovement = true;
 		sentences = new Queue<string>();
         Cursor.lockState = CursorLockMode.Confined;
     }
-	public void StartMonologue (Monologue dialogue,MonologueTrigger dialogueTrigger)
+	public void StartMonologue (Dialogue dialogue,DialogueTrigger dialogueTrigger)
 	{
 		RegUI.SetActive(false);
-		dialoguePortraits = dialogue.portraitsOrder;
-		Portrait.sprite = dialoguePortraits[portraitIndex];
+		sentenceList = dialogue.sentences.ToList();		
+		Portrait.sprite = sentenceList[sentenceIndex].portrait;
 		Time.timeScale = 0;
 		CUrrentDialogue = dialogueTrigger;
 		DialogueON = true;
-		DialoguePanel.SetActive(true);
-		nameText.text = dialogue.name;
+		DialoguePanel.SetActive(true);		
 		sentences.Clear();
-		foreach (string sentence in dialogue.sentences)
+		foreach (Sentence sentence in dialogue.sentences)
 		{
-			sentences.Enqueue(sentence);
+			sentences.Enqueue(sentence.ToString());
 		}
 		DisplayNextSentenceMono();
 	}
 
 	public void DisplayNextSentenceMono ()
-	{		
-		Debug.Log("NextDialogue");
+	{        
+        Debug.Log("NextDialogue");
 		if (sentences.Count == 0)
 		{
 			EndDialogue(CUrrentDialogue);
 			return;
-		}		
-        Portrait.sprite = dialoguePortraits[portraitIndex];
-        portraitIndex++;
+		}
+        if (sentenceList[sentenceIndex].rightLeftSide)
+        {
+            Portrait.gameObject.SetActive(false);
+            PortraitLeft.gameObject.SetActive(true);
+            PortraitLeft.sprite = sentenceList[sentenceIndex].portrait;
+        }
+		else 
+		{
+            Portrait.gameObject.SetActive(true);
+            PortraitLeft.gameObject.SetActive(false);
+            Portrait.sprite = sentenceList[sentenceIndex].portrait;
+        }
+        sentenceIndex++;
         string sentence = sentences.Dequeue();
 		StopAllCoroutines();
 		StartCoroutine(TypeSentence(sentence));
-	}
 
-	IEnumerator TypeSentence (string sentence)
+    }
+	IEnumerator TypeSentence(string sentence)
 	{
+		nameText.text = sentence.Split("!:")[0];
 		dialogueText.text = "";
-		foreach (char letter in sentence.ToCharArray())
+		List<string> strings = sentence.Split().ToList();		
+		strings.RemoveAt(0);
+		string sentenceToUse = string.Join(" ",strings.ToArray());
+        foreach (char letter in sentenceToUse.ToCharArray())
 		{
 			dialogueText.text += letter;
 			yield return null;
 		}
 	}
 
-	void EndDialogue(MonologueTrigger dialogueTrigger)
+	void EndDialogue(DialogueTrigger dialogueTrigger)
 	{
         RegUI.SetActive(true);
         Time.timeScale = 1;

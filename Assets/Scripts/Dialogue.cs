@@ -1,23 +1,22 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Dialogue : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+[System.Serializable]
+public class Dialogue {	
+	public Sentence[] sentences;
 }
-public class DialogueSentece
+[System.Serializable]
+public class Sentence
 {
-    bool Choice;
+    [TextArea(3, 10)]
     public string text;
+    public bool rightLeftSide = false; //Right = false,Left = true
+    public bool choice = false;
+    public Sprite portrait;
+    public override string ToString()
+    {
+        return text;
+    }
 }

@@ -144,6 +144,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
       propertyPath: road
       value: 1
       objectReference: {fileID: 0}
@@ -221,6 +226,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -295,6 +305,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (165)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -442,6 +457,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (251)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -510,6 +530,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (205)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -584,6 +609,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (193)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -658,6 +688,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (200)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -821,6 +856,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[4]
       value: 
       objectReference: {fileID: 2100000, guid: 7535475ed6fbde04ca38350ec277b3bc, type: 2}
+    - target: {fileID: -4292154010595695564, guid: 6cc27e5aee641164396cf4df4935c653,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -18.98
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6cc27e5aee641164396cf4df4935c653,
         type: 3}
       propertyPath: m_Name
@@ -850,6 +890,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1019,6 +1064,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (218)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1087,6 +1137,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1234,6 +1289,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1308,6 +1368,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1363,6 +1428,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2774317c4a3e554a9acb66d4e4404a7, type: 3}
+--- !u!1 &76381042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 76381043}
+  m_Layer: 0
+  m_Name: EndMark
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &76381043
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76381042}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.3210197, y: 0.63003683, z: -0.3210197, w: 0.63003683}
+  m_LocalPosition: {x: -85.7, y: 78.87, z: 43.689133}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &79306218
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1376,6 +1472,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1542,6 +1643,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1634,6 +1740,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1714,6 +1825,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1865,140 +1981,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 155541934}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &159140276
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 159140277}
-  - component: {fileID: 159140279}
-  - component: {fileID: 159140278}
-  m_Layer: 5
-  m_Name: nom
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &159140277
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159140276}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2084164749}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 422.32, y: -491.62}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &159140278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159140276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "Turret \nfood"
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &159140279
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159140276}
-  m_CullTransparentMesh: 1
 --- !u!1001 &162348892
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2012,6 +1994,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (145)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2170,6 +2157,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (233)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2319,6 +2311,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2393,6 +2390,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (221)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2461,6 +2463,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (187)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2547,6 +2554,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2621,6 +2633,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (202)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2695,6 +2712,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2883,6 +2905,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
       propertyPath: road
       value: 1
       objectReference: {fileID: 0}
@@ -2960,6 +2987,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (208)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3028,6 +3060,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3229,6 +3266,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3376,6 +3418,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (171)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3853,6 +3900,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3927,6 +3979,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: road
@@ -4008,6 +4065,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
       propertyPath: road
       value: 1
       objectReference: {fileID: 0}
@@ -4079,6 +4141,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (162)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4254,6 +4321,7 @@ GameObject:
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
+  - component: {fileID: 330585548}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4328,14 +4396,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3210197, y: 0.63003683, z: -0.3210197, w: 0.63003683}
-  m_LocalPosition: {x: -85.7, y: 78.87, z: 43.689133}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: -251.4, y: 198.7, z: 43.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1300338164}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 54, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4380,6 +4448,49 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!114 &330585548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e78452aa0c94b24f967a8136a7a73aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMarker: {fileID: 2137774867}
+  endMarker: {fileID: 76381043}
+  speed: 50
+  move: 0
+  cameraRollEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2084164745}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1559382252}
+        m_TargetAssemblyTypeName: WaveManager, Assembly-CSharp
+        m_MethodName: StartWaves
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &330839591 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
@@ -4405,6 +4516,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: road
@@ -4641,6 +4757,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (245)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4709,6 +4830,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4783,6 +4909,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (161)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5003,6 +5134,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5071,6 +5207,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (223)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5213,6 +5354,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (189)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5384,6 +5530,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5458,6 +5609,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (219)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5650,6 +5806,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5851,6 +6012,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (239)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5931,6 +6097,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6007,6 +6178,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
       propertyPath: road
       value: 1
       objectReference: {fileID: 0}
@@ -6078,6 +6254,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6146,6 +6327,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (235)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6226,6 +6412,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6320,7 +6511,7 @@ RectTransform:
   m_Father: {fileID: 674625014}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -6375,6 +6566,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (184)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6443,6 +6639,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (180)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6511,6 +6712,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (226)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6671,6 +6877,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6739,6 +6950,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (141)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6813,6 +7029,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (244)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6887,6 +7108,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6955,6 +7181,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (122)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7023,6 +7254,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7103,6 +7339,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (252)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7171,6 +7412,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7239,6 +7485,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (164)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7307,6 +7558,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7453,6 +7709,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7521,6 +7782,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (167)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7595,6 +7861,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7663,6 +7934,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (203)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7731,6 +8007,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7799,6 +8080,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (129)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7860,6 +8146,149 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1143429159}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &572959163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 572959167}
+  - component: {fileID: 572959166}
+  - component: {fileID: 572959165}
+  - component: {fileID: 572959164}
+  - component: {fileID: 572959168}
+  m_Layer: 5
+  m_Name: MainMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &572959164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572959163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &572959165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572959163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &572959166
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572959163}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &572959167
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572959163}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1312287878}
+  - {fileID: 1004806167}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &572959168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572959163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cdcd6fc5532bb74c9e4736f58791090, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stuffTostart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 330585548}
+        m_TargetAssemblyTypeName: CameraMove, Assembly-CSharp
+        m_MethodName: StartMobving
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 572959163}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &573823305 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
@@ -7969,6 +8398,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8060,6 +8494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerHP: 100
+  PlayerHPBar: {fileID: 737586097}
 --- !u!4 &594883853
 Transform:
   m_ObjectHideFlags: 0
@@ -8228,6 +8663,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (207)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8407,6 +8847,114 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 51, y: -108.3, z: 0}
+--- !u!1001 &619921105
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 313.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 73
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.50008726
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.49991274
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.50008726
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.49991274
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.98
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cae8ba6eed5e9df47af051c87b5fa955, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b708720862d8cbd43b8f9c737b5bc784, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 87caab45cda64f0428df3aaecbb99ffb, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6db28fb0584aaa84e8e1437b3c004619, type: 2}
+    - target: {fileID: 919132149155446097, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_Name
+      value: road (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 61042b3e6d44c014fbe708317f455f20, type: 3}
 --- !u!4 &620126819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
@@ -8639,6 +9187,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (149)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8707,6 +9260,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (197)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8787,6 +9345,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (217)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8855,6 +9418,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (236)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8923,6 +9491,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (206)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9066,6 +9639,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9134,6 +9712,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (139)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9244,6 +9827,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (250)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9312,6 +9900,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (215)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9507,6 +10100,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9581,6 +10179,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (172)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9649,6 +10252,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (157)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9717,6 +10325,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (177)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9785,6 +10398,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (214)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9853,6 +10471,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9921,6 +10544,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10008,7 +10636,7 @@ RectTransform:
   m_GameObject: {fileID: 737586095}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_LocalScale: {x: 1.63, y: 1.63, z: 1.63}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 674625014}
@@ -10017,7 +10645,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 115.7, y: -491.36}
+  m_AnchoredPosition: {x: -339, y: 280}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &737586097
@@ -10096,6 +10724,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10170,6 +10803,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (174)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10238,6 +10876,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10293,6 +10936,81 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2774317c4a3e554a9acb66d4e4404a7, type: 3}
+--- !u!1 &754352945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 754352946}
+  - component: {fileID: 754352948}
+  - component: {fileID: 754352947}
+  m_Layer: 5
+  m_Name: Portrait R (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &754352946
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754352945}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: -7.27, y: 7.27, z: 7.27}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1833792736}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -369.41, y: 2.63}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &754352947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754352945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 1dc9e3fe97a60284492e9e1cb462a6ef, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &754352948
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754352945}
+  m_CullTransparentMesh: 1
 --- !u!4 &754593205 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
@@ -10312,6 +11030,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (212)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10386,6 +11109,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10454,6 +11182,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (136)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10522,6 +11255,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: road
@@ -10601,6 +11339,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10669,6 +11412,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (163)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10737,6 +11485,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (176)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: road
@@ -10810,6 +11563,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10878,6 +11636,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (213)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11078,6 +11841,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
       propertyPath: road
       value: 1
       objectReference: {fileID: 0}
@@ -11149,6 +11917,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (246)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11284,6 +12057,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (243)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11352,6 +12130,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (128)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11510,6 +12293,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11584,6 +12372,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11652,6 +12445,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11744,6 +12542,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (170)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11812,6 +12615,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11880,6 +12688,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11948,6 +12761,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (220)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: road
@@ -12051,6 +12869,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12119,6 +12942,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (133)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12187,6 +13015,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (135)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12255,6 +13088,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (195)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12335,6 +13173,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12403,6 +13246,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (152)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: road
@@ -12476,6 +13324,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12544,6 +13397,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (230)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12612,6 +13470,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (173)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12680,6 +13543,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12754,6 +13622,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (120)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12821,6 +13694,7 @@ GameObject:
   - component: {fileID: 983727384}
   - component: {fileID: 983727383}
   - component: {fileID: 983727382}
+  - component: {fileID: 983727386}
   m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
@@ -12914,6 +13788,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1300338164}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &983727386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983727381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 273afe7f308764146844105e7a136e6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beingDragged: 0
+  satisfaction: 0
+  TargetNode: {fileID: 0}
 --- !u!4 &989702879 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
@@ -12933,6 +13822,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13007,6 +13901,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13068,6 +13967,139 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 292273407}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1004806166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1004806167}
+  - component: {fileID: 1004806170}
+  - component: {fileID: 1004806169}
+  - component: {fileID: 1004806168}
+  m_Layer: 5
+  m_Name: Start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1004806167
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004806166}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1740308471}
+  m_Father: {fileID: 572959167}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1004806168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004806166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1004806169}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 572959168}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: StartThingies
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1004806169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004806166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1004806170
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004806166}
+  m_CullTransparentMesh: 1
 --- !u!4 &1007967944 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
@@ -13099,6 +14131,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (234)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13263,6 +14300,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13331,6 +14373,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13399,6 +14446,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13467,6 +14519,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13535,6 +14592,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (196)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13603,6 +14665,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13677,6 +14744,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (169)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13745,6 +14817,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13819,6 +14896,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13887,6 +14969,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (192)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13955,6 +15042,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: road
@@ -14028,6 +15120,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14198,6 +15295,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14565,6 +15667,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (247)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14645,6 +15752,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (216)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: road
@@ -14863,6 +15975,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (198)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14943,6 +16060,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15011,6 +16133,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15109,6 +16236,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15195,6 +16327,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15269,6 +16406,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (154)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15337,6 +16479,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (142)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15405,6 +16552,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (137)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15607,6 +16759,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (222)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15675,6 +16832,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (191)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15743,6 +16905,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15823,6 +16990,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15987,6 +17159,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16061,6 +17238,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16135,6 +17317,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16287,6 +17474,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16479,6 +17671,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (209)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16547,6 +17744,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16639,6 +17841,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16707,6 +17914,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16775,6 +17987,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (194)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16843,6 +18060,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17018,7 +18240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 501.6, y: -492}
+  m_AnchoredPosition: {x: 501.6, y: -168}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1282482365
@@ -17165,6 +18387,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (138)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17233,6 +18460,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17301,6 +18533,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (181)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17369,6 +18606,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (156)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: road
@@ -17577,6 +18819,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17632,6 +18879,140 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2774317c4a3e554a9acb66d4e4404a7, type: 3}
+--- !u!1 &1312287877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1312287878}
+  - component: {fileID: 1312287880}
+  - component: {fileID: 1312287879}
+  m_Layer: 5
+  m_Name: Name
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1312287878
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312287877}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.38, y: 2.38, z: 2.38}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 572959167}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 235.74}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1312287879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312287877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Appliance Defiance!
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1312287880
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312287877}
+  m_CullTransparentMesh: 1
 --- !u!4 &1318618231 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
@@ -17663,6 +19044,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (188)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17737,6 +19123,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (240)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17957,6 +19348,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (150)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18043,6 +19439,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (211)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18141,6 +19542,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (254)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18209,6 +19615,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18277,6 +19688,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18345,6 +19761,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (249)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18413,6 +19834,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: road
@@ -18492,6 +19918,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18560,6 +19991,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (166)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18646,6 +20082,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18726,6 +20167,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (126)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18794,6 +20240,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (224)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18862,6 +20313,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (117)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19065,7 +20521,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Portrait: {fileID: 173464559}
-  portraitIndex: 0
+  PortraitLeft: {fileID: 754352947}
   RegUI: {fileID: 2084164745}
 --- !u!4 &1468974320 stripped
 Transform:
@@ -19092,6 +20548,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (179)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19153,6 +20614,114 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1274923301}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1497085958
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -254
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 73
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cae8ba6eed5e9df47af051c87b5fa955, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: b708720862d8cbd43b8f9c737b5bc784, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 87caab45cda64f0428df3aaecbb99ffb, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6db28fb0584aaa84e8e1437b3c004619, type: 2}
+    - target: {fileID: 919132149155446097, guid: 61042b3e6d44c014fbe708317f455f20,
+        type: 3}
+      propertyPath: m_Name
+      value: road (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 61042b3e6d44c014fbe708317f455f20, type: 3}
 --- !u!4 &1503707338 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
@@ -19184,6 +20753,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19406,6 +20980,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
       propertyPath: road
       value: 1
       objectReference: {fileID: 0}
@@ -19587,6 +21166,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19661,6 +21245,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19865,7 +21454,7 @@ MonoBehaviour:
     - {fileID: 576051573}
   timeBetweenWaves: 10
   enemiesSpawmned: 0
-  WaveGoing: 1
+  WaveGoing: 0
 --- !u!4 &1559382253
 Transform:
   m_ObjectHideFlags: 0
@@ -20029,6 +21618,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (134)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20097,6 +21691,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (148)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20165,6 +21764,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (232)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20233,6 +21837,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (159)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20301,6 +21910,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (155)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20369,6 +21983,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (210)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20437,6 +22056,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20590,6 +22214,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (255)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20658,6 +22287,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20726,6 +22360,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (186)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20812,6 +22451,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20894,6 +22538,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
       propertyPath: road
       value: 1
       objectReference: {fileID: 0}
@@ -20965,6 +22614,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21312,6 +22966,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (199)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21380,6 +23039,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (143)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21466,6 +23130,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (238)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21676,6 +23345,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (227)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21744,6 +23418,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (147)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21812,6 +23491,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (248)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21880,6 +23564,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (158)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22032,6 +23721,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (183)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22198,6 +23892,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
       propertyPath: road
       value: 1
       objectReference: {fileID: 0}
@@ -22269,6 +23968,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22330,6 +24034,140 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 245104822}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1740308470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1740308471}
+  - component: {fileID: 1740308473}
+  - component: {fileID: 1740308472}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1740308471
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740308470}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1004806167}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1740308472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740308470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Start
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1740308473
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740308470}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1748300724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22422,6 +24260,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22490,6 +24333,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: road
@@ -22569,6 +24417,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22643,6 +24496,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22711,6 +24569,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22785,6 +24648,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22853,6 +24721,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (201)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22933,6 +24806,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23125,6 +25003,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23193,6 +25076,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (175)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23261,6 +25149,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (190)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23335,6 +25228,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (242)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23421,6 +25319,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 173464558}
+  - {fileID: 754352946}
   - {fileID: 1282608374}
   - {fileID: 1330472943}
   - {fileID: 601826891}
@@ -23483,6 +25382,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23826,6 +25730,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (178)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23900,6 +25809,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: road
@@ -23979,6 +25893,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (228)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24132,6 +26051,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (185)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24206,6 +26130,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24274,6 +26203,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24366,6 +26300,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (153)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24452,6 +26391,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (237)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24520,6 +26464,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24594,6 +26543,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (241)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24668,6 +26622,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24736,6 +26695,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24804,6 +26768,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (140)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: road
@@ -24889,6 +26858,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25063,6 +27037,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
       propertyPath: road
       value: 1
       objectReference: {fileID: 0}
@@ -25140,6 +27119,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25319,15 +27303,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: 
     sentences:
-    - I tell you what tho
-    - Can I kill someone with one kickc to the nuts?
-    - Perfect murder plan!
-    portraitsOrder:
-    - {fileID: 21300000, guid: 1dc9e3fe97a60284492e9e1cb462a6ef, type: 3}
-    - {fileID: 21300000, guid: cffda29cdb362024195598d5a56e3c26, type: 3}
-    - {fileID: 21300000, guid: 3887cff5b6a519d4ab243a1d79f22591, type: 3}
+    - text: 'Moron!: I love beans'
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: cffda29cdb362024195598d5a56e3c26, type: 3}
+    - text: 'Cuck!: Stfu'
+      rightLeftSide: 1
+      choice: 0
+      portrait: {fileID: 21300000, guid: 1dc9e3fe97a60284492e9e1cb462a6ef, type: 3}
   OnEnd:
     m_PersistentCalls:
       m_Calls: []
@@ -25344,6 +27328,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (231)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25424,6 +27413,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25640,6 +27634,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (132)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25708,6 +27707,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: road
@@ -25787,6 +27791,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (168)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25855,6 +27864,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (146)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26019,6 +28033,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (160)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26087,6 +28106,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (151)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26264,6 +28288,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26417,6 +28446,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26485,6 +28519,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (182)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26553,6 +28592,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26632,7 +28676,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2084164746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26711,7 +28755,6 @@ RectTransform:
   - {fileID: 534114572}
   - {fileID: 1282482364}
   - {fileID: 1203440828}
-  - {fileID: 159140277}
   - {fileID: 737586096}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -26733,6 +28776,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26813,6 +28861,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (253)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26887,6 +28940,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (225)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26955,6 +29013,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27029,6 +29092,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27307,6 +29375,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode (229)
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27374,6 +29447,37 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 523404109}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2137774866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2137774867}
+  m_Layer: 0
+  m_Name: Start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2137774867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137774866}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: -251.4, y: 198.7, z: 43.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!1001 &6127257578511085128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27387,6 +29491,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GridNode
       objectReference: {fileID: 0}
+    - target: {fileID: 7042900925283691283, guid: d2774317c4a3e554a9acb66d4e4404a7,
+        type: 3}
+      propertyPath: Meat
+      value: 
+      objectReference: {fileID: 1282482365}
     - target: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27446,6 +29555,8 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 76381043}
+  - {fileID: 2137774867}
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
@@ -27466,6 +29577,8 @@ SceneRoots:
   - {fileID: 1982838333}
   - {fileID: 49857365}
   - {fileID: 2120035524}
+  - {fileID: 1497085958}
+  - {fileID: 619921105}
   - {fileID: 619450996}
   - {fileID: 1244513446}
   - {fileID: 1818001904}
@@ -27473,3 +29586,4 @@ SceneRoots:
   - {fileID: 1844138068}
   - {fileID: 801106636}
   - {fileID: 1994978830}
+  - {fileID: 572959167}

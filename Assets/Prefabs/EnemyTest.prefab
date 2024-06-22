@@ -82,7 +82,7 @@ MonoBehaviour:
   reachedTarget: 0
   damping: 0.04
   speed: 10
-  HouseDMG: 1
+  HouseDMG: 5
   SentryDMG: 0
 --- !u!54 &-246516815937455036
 Rigidbody:

@@ -31,6 +31,10 @@ public class WaveManager : MonoBehaviour
         }
         spawnPosition = currentLayout.transformList[0];
     }
+    public void StartWaves()
+    {
+        WaveGoing = true;
+    }
     void Update()
     {
         if (WaveGoing)
