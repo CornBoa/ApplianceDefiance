@@ -15,7 +15,7 @@ public class NodeTest : MonoBehaviour
     {
         rend = GetComponent<Renderer>();
         if(road) rend.material.color = Color.black;
-        Meat = DragandDrop.instance;
+        Meat = GameObject.FindObjectOfType<DragandDrop>(true);
         PlapSource = GetComponentInParent<AudioSource>();
     }
 
@@ -59,7 +59,7 @@ public class NodeTest : MonoBehaviour
                 mesh.GetComponent<MeshRenderer>().material.color = Color.gray;
             }
             GameObject RangeVis  = sentryInstalled.GetRangeVisual();
-            RangeVis.SetActive(false);
+            if(RangeVis != null)RangeVis.SetActive(false);
             Destroy(sentryHolo);
             rend.material.color = Color.red;
             PlapSource.pitch = Random.Range(0.95f, 1.1f);

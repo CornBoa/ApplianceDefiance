@@ -4,6 +4,7 @@ using System.Net.NetworkInformation;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using static UnityEditor.ShaderGraph.Internal.KeywordDependentCollection;
 
 public class DragandDrop : MonoBehaviour,IBeginDragHandler, IEndDragHandler,IDragHandler
 {
@@ -15,7 +16,15 @@ public class DragandDrop : MonoBehaviour,IBeginDragHandler, IEndDragHandler,IDra
     private void Awake()
     {
         startPos = transform.position;
-        instance = this;            
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void OnDrag(PointerEventData eventData)

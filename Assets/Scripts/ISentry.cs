@@ -10,4 +10,6 @@ public interface ISentry
     abstract void TakeDMG(int DMG);
     abstract void Activate();
     abstract void Feed(float foodAmount);
+    abstract public void SpendCredit();
+    abstract public bool EnoughMaterial();
 }

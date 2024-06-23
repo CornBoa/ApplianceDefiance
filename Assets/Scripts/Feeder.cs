@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class Feeder : MonoBehaviour,ISentry
 {
-    float timer;
     public float feedrate = 0;
     public float feedAmount;
     public float feedRadius;
@@ -14,6 +13,7 @@ public class Feeder : MonoBehaviour,ISentry
     public GameObject RangeVis;
     public List<GameObject> meshesObjects;
     bool activated;
+    public int price = 0;
     Slider slider;
     void Start()
     {
@@ -85,5 +85,15 @@ public class Feeder : MonoBehaviour,ISentry
     public void Feed(float foodAmount)
     {
         throw new System.NotImplementedException();
+    }
+
+    public void SpendCredit()
+    {
+        BuildingManager.Instance.techMaterial -= price;
+    }
+
+    public bool EnoughMaterial()
+    {
+        return BuildingManager.Instance.techMaterial >= price; 
     }
 }

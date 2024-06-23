@@ -398,6 +398,7 @@ MonoBehaviour:
   meshesObjects:
   - {fileID: 5974374651031014154}
   - {fileID: 3500329126912479544}
+  price: 500
 --- !u!1 &5974374651031014154
 GameObject:
   m_ObjectHideFlags: 0

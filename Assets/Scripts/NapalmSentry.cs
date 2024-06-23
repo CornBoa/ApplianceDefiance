@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
 
@@ -20,6 +21,9 @@ public class NapalmSentry : MonoBehaviour , ISentry
     float nextFireTime;
     public float fireRate;
     public bool active;
+    public int price = 0;
+    AudioSource audioSource;
+    public AudioClip shoot;
     private void Start()
     {
         SphereCollider = GetComponent<SphereCollider>();
@@ -27,6 +31,7 @@ public class NapalmSentry : MonoBehaviour , ISentry
         RangeVis.transform.localScale = new Vector3(UsableRange, 1, UsableRange);
         SphereCollider.radius = UsableRange / 2;
         currentHP = maxHP;
+        audioSource = GetComponent<AudioSource>();
     }
     void Update()
     {
@@ -45,7 +50,7 @@ public class NapalmSentry : MonoBehaviour , ISentry
                 Vector3 rotation = lookDirection.eulerAngles;
                 RotatingPiece.rotation = Quaternion.Euler(0, rotation.y, 0);
             }
-            if (Time.time >= nextFireTime && hunger > 0 && Target != null)
+            if (Time.time >= nextFireTime && Target != null)
             {
                 nextFireTime = Time.time + fireRate;
                 Shoot();
@@ -66,6 +71,7 @@ public class NapalmSentry : MonoBehaviour , ISentry
                 else
                 {
                     Target = null;
+                    audioSource.Stop();
                 }
             }
             if (Target != null && Vector3.Distance(transform.position, Target.position) > UsableRange / 2)
@@ -126,10 +132,28 @@ public class NapalmSentry : MonoBehaviour , ISentry
     }
     void Shoot()
     {
-        GameObject Projectile = Instantiate(Projectiles[Random.Range(0, Projectiles.Count)],RotatingPiece.position,Quaternion.identity);
-        Projectile.GetComponent<FlameProjectile>().napalmSentry = this;
-        Rigidbody rb = Projectile.GetComponent<Rigidbody>();
-        rb.AddForce((new Vector3(Target.position.x, Target.position.y, Target.position.z) - Projectile.transform.position) * 2,ForceMode.VelocityChange); 
-        hunger -= 1 * hungerModifier;
+        if (hunger > 0)
+        {
+            GameObject Projectile = Instantiate(Projectiles[Random.Range(0, Projectiles.Count)], RotatingPiece.position, Quaternion.identity);
+            Projectile.GetComponent<FlameProjectile>().napalmSentry = this;
+            Rigidbody rb = Projectile.GetComponent<Rigidbody>();
+            rb.AddForce((new Vector3(Target.position.x, Target.position.y, Target.position.z) - Projectile.transform.position) * 2, ForceMode.VelocityChange);
+            hunger -= 1 * hungerModifier;
+            if (!audioSource.isPlaying) audioSource.PlayOneShot(shoot);
+        }
+        else
+        {
+            audioSource.Stop();
+        }
+    }
+
+    public void SpendCredit()
+    {
+        BuildingManager.Instance.bioMaterial -= price;
+    }
+
+    public bool EnoughMaterial()
+    {
+        return BuildingManager.Instance.bioMaterial >= price;
     }
 }

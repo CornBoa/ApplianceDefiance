@@ -9,14 +9,14 @@ public class BuildingManager : MonoBehaviour
     public static BuildingManager Instance;
     public List<GameObject> publicSentries;
     List<ISentry> listOfSentries = new List<ISentry>();
-    public List<int> Prices = new List<int>();
     public static int Material;
     public ISentry currentSentry;
     public NodeTest currentNode;
     public bool buildMode = true;
     int buildingIndex = 0;
     public int bioMaterial = 0;
-    public TextMeshProUGUI MunehTextTempor;
+    public int techMaterial = 0;
+    public TextMeshProUGUI BioText,TechText;
     public AudioClip PickSound;
     AudioSource PickSource;
     void Awake()
@@ -39,7 +39,6 @@ public class BuildingManager : MonoBehaviour
             if(sentry != null) listOfSentries.Add(sentry);
         }
         PickSource = GetComponent<AudioSource>();
-        MunehTextTempor.text = bioMaterial.ToString();
     }
     private void Update()
     {
@@ -48,7 +47,8 @@ public class BuildingManager : MonoBehaviour
             currentSentry = null;
             buildMode = false;
         }
-
+        BioText.text = bioMaterial.ToString();
+        TechText.text = techMaterial.ToString();
     }
     public void EngageBuildMode()
     {
@@ -66,12 +66,11 @@ public class BuildingManager : MonoBehaviour
     }
     public void MoneySpend()
     {
-        bioMaterial -= Prices[buildingIndex];
-        MunehTextTempor.text = bioMaterial.ToString();
+        currentSentry.SpendCredit();
     }
     public bool IsEnoughMoney()
     {
-        if (bioMaterial >= Prices[buildingIndex])
+        if (currentSentry.EnoughMaterial())
         {
             return true;
         }

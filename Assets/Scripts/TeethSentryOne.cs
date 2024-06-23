@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class TeethSentryOne : MonoBehaviour , ISentry
@@ -21,6 +22,7 @@ public class TeethSentryOne : MonoBehaviour , ISentry
     public bool active;
     public AudioClip ShootSound;
     AudioSource ShootSource;
+    public int price = 0;
     private void Start()
     {
         SphereCollider = GetComponent<SphereCollider>();
@@ -135,5 +137,14 @@ public class TeethSentryOne : MonoBehaviour , ISentry
     {
         hunger += foodAmount;
         if (currentHP < maxHP)currentHP++;
+    }
+    public void SpendCredit()
+    {
+        BuildingManager.Instance.bioMaterial -= price;
+    }
+
+    public bool EnoughMaterial()
+    {
+        return BuildingManager.Instance.bioMaterial >= price;
     }
 }

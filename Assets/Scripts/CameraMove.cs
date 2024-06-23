@@ -15,12 +15,14 @@ public class CameraMove : MonoBehaviour
     public UnityEvent cameraRollEnd;
     void Start()
     {
-        startTime = Time.time;
-        journeyLength = Vector3.Distance(startMarker.position, endMarker.position);
+        
+       
     }
     public void StartMobving()
     {
         move = true;
+        startTime = Time.time;
+        journeyLength = Vector3.Distance(startMarker.position, endMarker.position);
     }
     void Update()
     {

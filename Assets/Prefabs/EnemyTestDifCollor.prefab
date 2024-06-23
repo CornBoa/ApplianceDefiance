@@ -84,6 +84,7 @@ MonoBehaviour:
   speed: 15
   HouseDMG: 10
   SentryDMG: 0
+  materialReward: 50
 --- !u!54 &-246516815937455036
 Rigidbody:
   m_ObjectHideFlags: 0

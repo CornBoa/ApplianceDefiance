@@ -16,13 +16,19 @@ public class EnemyTest : MonoBehaviour , IEnemy
     WaveManager Mamah;
     bool ded = false;
     private ParticleSystem gothit;
+    public int materialReward = 0;
     public void TakeDMG(int DMG)
     {
         HP -= DMG;
         gothit.Play();
         if(HP <= 0) 
         {
-            if (!ded) Mamah.enemiesSpawmned--;
+            if (!ded)
+            {
+                Mamah.enemiesSpawmned--;
+                BuildingManager.Instance.techMaterial += materialReward;
+            }
+
             ded = true;     
             Destroy(gameObject);
         }
