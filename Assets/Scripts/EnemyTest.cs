@@ -96,4 +96,40 @@ public class EnemyTest : MonoBehaviour , IEnemy
         ded = true;
         Destroy(gameObject);
     }
+
+    public void GetElectrocuted(List<IEnemy> shocked,int DMG,ElectroSentry sentry)
+    {
+        if (shocked.Count < 4) return;
+        else if (shocked.Count == 4)
+        {
+            TakeDMG(10);
+            sentry.lineRenderer.positionCount = shocked.Count;
+            List<Vector3> transformsOfEnemies = new List<Vector3>();
+            foreach (IEnemy enemy in shocked)
+            {
+                transformsOfEnemies.Add(enemy.GetGO().transform.position);
+            }
+            sentry.lineRenderer.SetPositions(transformsOfEnemies.ToArray());
+        }
+        else
+        {
+            List<IEnemy> currentChain = shocked;
+            Collider[] colliders = Physics.OverlapSphere(transform.position, 2, gameObject.layer);
+            Collider ClosestEnemy = colliders[0];
+            foreach (Collider nearbyObject in colliders)
+            {
+                if (Vector3.Distance(transform.position, nearbyObject.gameObject.transform.position) < Vector3.Distance(transform.position, ClosestEnemy.gameObject.transform.position))
+                {
+                    ClosestEnemy = nearbyObject;
+                }
+            }
+            ClosestEnemy.GetComponent<IEnemy>().GetElectrocuted(shocked,DMG,sentry);
+            TakeDMG(10);
+        }
+    }
+
+    public GameObject GetGO()
+    {
+        return gameObject;
+    }
 }
