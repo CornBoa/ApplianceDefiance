@@ -99,32 +99,37 @@ public class EnemyTest : MonoBehaviour , IEnemy
 
     public void GetElectrocuted(List<IEnemy> shocked,int DMG,ElectroSentry sentry)
     {
-        if (shocked.Count < 4) return;
-        else if (shocked.Count == 4)
+        List<IEnemy> currentChain = shocked;
+        currentChain.Add(this);
+        if (currentChain.Count == 4)
         {
-            TakeDMG(10);
-            sentry.lineRenderer.positionCount = shocked.Count;
+            Debug.Log("Took DMG");           
+            sentry.lineRenderer.positionCount = currentChain.Count;
             List<Vector3> transformsOfEnemies = new List<Vector3>();
-            foreach (IEnemy enemy in shocked)
+            foreach (IEnemy enemy in currentChain)
             {
                 transformsOfEnemies.Add(enemy.GetGO().transform.position);
+                enemy.TakeDMG(10);
             }
             sentry.lineRenderer.SetPositions(transformsOfEnemies.ToArray());
+            sentry.shocked.Clear();
         }
         else
         {
-            List<IEnemy> currentChain = shocked;
-            Collider[] colliders = Physics.OverlapSphere(transform.position, 2, gameObject.layer);
-            Collider ClosestEnemy = colliders[0];
-            foreach (Collider nearbyObject in colliders)
+            Debug.Log("Chain continue");
+            Collider[] colliders = Physics.OverlapSphere(transform.position, 5, gameObject.layer);
+            if (colliders.Length > 0)
             {
-                if (Vector3.Distance(transform.position, nearbyObject.gameObject.transform.position) < Vector3.Distance(transform.position, ClosestEnemy.gameObject.transform.position))
+                Collider ClosestEnemy = colliders[0];
+                foreach (Collider nearbyObject in colliders)
                 {
-                    ClosestEnemy = nearbyObject;
+                    if (Vector3.Distance(transform.position, nearbyObject.gameObject.transform.position) < Vector3.Distance(transform.position, ClosestEnemy.gameObject.transform.position) && ClosestEnemy != this)
+                    {
+                        ClosestEnemy = nearbyObject;
+                    }
                 }
-            }
-            ClosestEnemy.GetComponent<IEnemy>().GetElectrocuted(shocked,DMG,sentry);
-            TakeDMG(10);
+                ClosestEnemy.GetComponent<IEnemy>().GetElectrocuted(currentChain, DMG, sentry);
+            }                    
         }
     }
 

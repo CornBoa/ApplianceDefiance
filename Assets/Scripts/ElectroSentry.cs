@@ -23,7 +23,7 @@ public class ElectroSentry : MonoBehaviour, ISentry
     public int price = 0;
     AudioSource audioSource;
     public AudioClip shoot;
-    public List<IEnemy> shocked;
+    public List<IEnemy> shocked = new List<IEnemy>();
     public LineRenderer lineRenderer;
     private void Start()
     {
