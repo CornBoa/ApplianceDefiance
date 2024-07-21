@@ -48,7 +48,7 @@ public class NapalmSentry : MonoBehaviour , ISentry
                 Vector3 dir = Target.position - transform.position;
                 Quaternion lookDirection = Quaternion.LookRotation(dir);
                 Vector3 rotation = lookDirection.eulerAngles;
-                RotatingPiece.rotation = Quaternion.Euler(0, rotation.y, 0);
+                RotatingPiece.rotation = Quaternion.Euler(rotation.x, rotation.y, rotation.z);
             }
             if (Time.time >= nextFireTime && Target != null)
             {
