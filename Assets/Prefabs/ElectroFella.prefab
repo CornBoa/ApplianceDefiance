@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8002405029254738721}
   - component: {fileID: 5942121320946039676}
   - component: {fileID: 5645227383583530165}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 1265466886436041274}
   - component: {fileID: 1028125691311638694}
   - component: {fileID: 1751563353386760007}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -306,7 +306,7 @@ GameObject:
   - component: {fileID: 3766769525310037174}
   - component: {fileID: 4054813148815786356}
   - component: {fileID: -7829565614157185556}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: ElectroFella
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -354,7 +354,7 @@ MonoBehaviour:
   currentHP: 10
   hunger: 10
   hungerModifier: 0
-  fireRate: 0.1
+  fireRate: 1
   active: 0
   price: 0
   shoot: {fileID: 0}

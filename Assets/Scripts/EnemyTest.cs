@@ -5,7 +5,7 @@ using static UnityEngine.GraphicsBuffer;
 
 public class EnemyTest : MonoBehaviour , IEnemy
 {
-    float HP = 10;
+    public float HP = 10;
     public List<Transform> waypoints;
     Transform currentWaypoint;
     public bool facingTarget = false,reachedTarget = false;
@@ -120,10 +120,10 @@ public class EnemyTest : MonoBehaviour , IEnemy
             Collider[] colliders = Physics.OverlapSphere(transform.position, 5, gameObject.layer);
             if (colliders.Length > 0)
             {
-                Collider ClosestEnemy = colliders[0];
+                Collider ClosestEnemy = colliders[1];
                 foreach (Collider nearbyObject in colliders)
                 {
-                    if (Vector3.Distance(transform.position, nearbyObject.gameObject.transform.position) < Vector3.Distance(transform.position, ClosestEnemy.gameObject.transform.position) && ClosestEnemy != this)
+                    if (Vector3.Distance(transform.position, nearbyObject.gameObject.transform.position) < Vector3.Distance(transform.position, ClosestEnemy.gameObject.transform.position) && nearbyObject != this)
                     {
                         ClosestEnemy = nearbyObject;
                     }
