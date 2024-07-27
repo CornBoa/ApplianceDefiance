@@ -120,4 +120,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Target: {fileID: 0}
   speed: 2
-  DMG: 1
+  DMG: 5

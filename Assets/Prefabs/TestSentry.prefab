@@ -361,7 +361,7 @@ MonoBehaviour:
   fireRate: 0.5
   active: 0
   ShootSound: {fileID: 8300000, guid: c8f267eee6aa62d40857dc00c2a85d23, type: 3}
-  price: 150
+  price: 125
 --- !u!135 &8531628340566992331
 SphereCollider:
   m_ObjectHideFlags: 0

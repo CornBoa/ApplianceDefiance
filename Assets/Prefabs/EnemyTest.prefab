@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01584a7e7313b4b92e20dff27ac72a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 100
+  HP: 15
   waypoints:
   - {fileID: 0}
   - {fileID: 0}

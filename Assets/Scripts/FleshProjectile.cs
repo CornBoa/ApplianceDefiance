@@ -31,6 +31,7 @@ public class FleshProjectile : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             other.GetComponent<IEnemy>().TakeDMG(DMG);
+            Destroy(gameObject);
         }
     }
 }

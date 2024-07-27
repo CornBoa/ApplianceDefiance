@@ -50,18 +50,7 @@ public class DialogueManager : MonoBehaviour
 			EndDialogue(CUrrentDialogue);
 			return;
 		}
-        if (sentenceList[sentenceIndex].rightLeftSide)
-        {
-            Portrait.gameObject.SetActive(false);
-            PortraitLeft.gameObject.SetActive(true);
-            PortraitLeft.sprite = sentenceList[sentenceIndex].portrait;
-        }
-		else 
-		{
-            Portrait.gameObject.SetActive(true);
-            PortraitLeft.gameObject.SetActive(false);
-            Portrait.sprite = sentenceList[sentenceIndex].portrait;
-        }
+        Portrait.sprite = sentenceList[sentenceIndex].portrait;
         sentenceIndex++;
         string sentence = sentences.Dequeue();
 		StopAllCoroutines();
@@ -71,10 +60,10 @@ public class DialogueManager : MonoBehaviour
 	IEnumerator TypeSentence(string sentence)
 	{
 		nameText.text = sentence.Split("!:")[0];
+		List<string> words = sentence.Split("!:").ToList();
+		words.RemoveAt(0);
 		dialogueText.text = "";
-		List<string> strings = sentence.Split().ToList();		
-		strings.RemoveAt(0);
-		string sentenceToUse = string.Join(" ",strings.ToArray());
+		string sentenceToUse = string.Join(" ",words.ToArray());
         foreach (char letter in sentenceToUse.ToCharArray())
 		{
 			dialogueText.text += letter;
