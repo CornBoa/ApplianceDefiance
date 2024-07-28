@@ -84,4 +84,9 @@ public class BioGenerator : MonoBehaviour,ISentry
         }
 
     }
+
+    public void WalkTo(Transform nodeTransform)
+    {
+        throw new NotImplementedException();
+    }
 }

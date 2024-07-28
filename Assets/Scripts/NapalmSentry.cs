@@ -9,6 +9,7 @@ public class NapalmSentry : MonoBehaviour , ISentry
     public static float StatRange = 15;
     public float UsableRange;
     public Transform Target, RotatingPiece;
+    Transform nodePosition;
     SphereCollider SphereCollider;
     public GameObject RangeVis;
     public List<Transform> EnemyQueue = new List<Transform>();
@@ -20,12 +21,14 @@ public class NapalmSentry : MonoBehaviour , ISentry
     public List<GameObject> Projectiles;
     float nextFireTime;
     public float fireRate;
-    public bool active;
+    public bool active,walk;
     public int price = 0;
     AudioSource audioSource;
     public AudioClip shoot;
+    Animator animator;
     private void Start()
     {
+        animator = GetComponentInChildren<Animator>();
         SphereCollider = GetComponent<SphereCollider>();
         UsableRange = StatRange;
         RangeVis.transform.localScale = new Vector3(UsableRange, 1, UsableRange);
@@ -35,8 +38,19 @@ public class NapalmSentry : MonoBehaviour , ISentry
     }
     void Update()
     {
-
-        if (active)
+        if (walk)
+        {
+            animator.SetBool("Walk", walk);
+            transform.LookAt(nodePosition.position);
+            transform.Translate(nodePosition.position * Time.deltaTime);            
+            if (Vector3.Distance(transform.position,nodePosition.position) < 1)
+            {
+                walk = false;
+                animator.SetBool("Walk", walk);
+                active = true;
+            }
+        }
+        else if (active)
         {
             if (SphereCollider.radius != UsableRange / 2)
             {
@@ -155,5 +169,10 @@ public class NapalmSentry : MonoBehaviour , ISentry
     public bool EnoughMaterial()
     {
         return BuildingManager.Instance.bioMaterial >= price;
+    }
+    public void WalkTo(Transform nodeTransform)
+    {
+        nodePosition = nodeTransform;        
+        walk = true;
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class NodeTest : MonoBehaviour
@@ -51,21 +52,35 @@ public class NodeTest : MonoBehaviour
     {
         if (BuildingManager.Instance.currentSentry != null && !occupied && !buffer && !road && BuildingManager.Instance.IsEnoughMoney())
         {
-            sentryInstalled = Instantiate(BuildingManager.Instance.currentSentry.GetGO(), transform.position, transform.rotation).GetComponent<ISentry>();
-            occupied = true;
-            sentryInstalled.Activate();
-            foreach (GameObject mesh in sentryInstalled.GetMeshes())
+            List<Elevator> elevators = FindObjectsOfType<Elevator>().ToList();
+            List<Elevator> elevatorsToUse = new List<Elevator>();
+            foreach (Elevator e in elevators)
             {
-                mesh.GetComponent<MeshRenderer>().material.color = Color.gray;
+                if(!e.occupied)elevatorsToUse.Add(e);
             }
-            GameObject RangeVis  = sentryInstalled.GetRangeVisual();
-            if(RangeVis != null)RangeVis.SetActive(false);
-            Destroy(sentryHolo);
-            rend.material.color = Color.red;
-            PlapSource.pitch = Random.Range(0.95f, 1.1f);
-            PlapSource.PlayOneShot(PlapClip);
-            BuildingManager.Instance.MoneySpend();
-        }
-        
+            if (elevatorsToUse.Count != 0)
+            {
+                Elevator elevator = elevatorsToUse[Random.Range(0, elevators.Count - 1)];
+                sentryInstalled = Instantiate(BuildingManager.Instance.currentSentry.GetGO(), elevator.transform.position, elevator.transform.rotation).GetComponent<ISentry>();
+                elevator.handledSentry = sentryInstalled;
+                elevator.Spawn(this);
+                occupied = true;
+                foreach (GameObject mesh in sentryInstalled.GetMeshes())
+                {
+                    mesh.GetComponent<MeshRenderer>().material.color = Color.gray;
+                }
+                GameObject RangeVis = sentryInstalled.GetRangeVisual();
+                if (RangeVis != null) RangeVis.SetActive(false);
+                Destroy(sentryHolo);
+                rend.material.color = Color.red;
+                PlapSource.pitch = Random.Range(0.95f, 1.1f);
+                PlapSource.PlayOneShot(PlapClip);
+                BuildingManager.Instance.MoneySpend();
+            }
+            else
+            {
+                Debug.Log("All Elevators Occupied");
+            }
+        }           
     }
 }

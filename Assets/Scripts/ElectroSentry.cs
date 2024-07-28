@@ -145,5 +145,10 @@ public class ElectroSentry : MonoBehaviour, ISentry
     {
         return BuildingManager.Instance.bioMaterial >= price;
     }
+
+    public void WalkTo(Transform nodeTransform)
+    {
+        throw new System.NotImplementedException();
+    }
 }
 

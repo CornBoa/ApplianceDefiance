@@ -12,4 +12,5 @@ public interface ISentry
     abstract void Feed(float foodAmount);
     abstract public void SpendCredit();
     abstract public bool EnoughMaterial();
+    abstract public void WalkTo(Transform nodeTransform);
 }

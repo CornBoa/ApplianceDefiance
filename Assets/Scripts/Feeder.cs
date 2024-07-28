@@ -96,4 +96,9 @@ public class Feeder : MonoBehaviour,ISentry
     {
         return BuildingManager.Instance.techMaterial >= price; 
     }
+
+    public void WalkTo(Transform nodeTransform)
+    {
+        throw new System.NotImplementedException();
+    }
 }

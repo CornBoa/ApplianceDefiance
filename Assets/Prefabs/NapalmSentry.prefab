@@ -782,6 +782,7 @@ MonoBehaviour:
   - {fileID: 2036843423272177740, guid: 2f73f2fce0da6894baad1e7a717702dc, type: 3}
   fireRate: 0.1
   active: 0
+  walk: 0
   price: 300
   shoot: {fileID: 8300000, guid: 319b2f9e26f49ef4788854a89d583f8f, type: 3}
 --- !u!135 &2650369189154193102
@@ -2082,7 +2083,7 @@ Animator:
   m_GameObject: {fileID: 6657295172958245736}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 04f8f9ce90370244a8c3042150eb66e9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
