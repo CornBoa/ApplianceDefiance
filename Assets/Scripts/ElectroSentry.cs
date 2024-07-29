@@ -150,5 +150,10 @@ public class ElectroSentry : MonoBehaviour, ISentry
     {
         throw new System.NotImplementedException();
     }
+
+    public void Die()
+    {
+        throw new System.NotImplementedException();
+    }
 }
 

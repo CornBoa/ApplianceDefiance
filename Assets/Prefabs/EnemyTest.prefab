@@ -84,8 +84,9 @@ MonoBehaviour:
   damping: 0.04
   speed: 10
   HouseDMG: 5
-  SentryDMG: 0
+  SentryDMG: 2
   materialReward: 25
+  ToAttack: 1
 --- !u!54 &-246516815937455036
 Rigidbody:
   m_ObjectHideFlags: 0

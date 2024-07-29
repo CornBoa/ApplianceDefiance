@@ -89,4 +89,9 @@ public class BioGenerator : MonoBehaviour,ISentry
     {
         throw new NotImplementedException();
     }
+
+    public void Die()
+    {
+        throw new NotImplementedException();
+    }
 }

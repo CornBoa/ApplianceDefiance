@@ -175,4 +175,9 @@ public class NapalmSentry : MonoBehaviour , ISentry
         nodePosition = nodeTransform;        
         walk = true;
     }
+
+    public void Die()
+    {
+        throw new System.NotImplementedException();
+    }
 }

@@ -101,4 +101,9 @@ public class Feeder : MonoBehaviour,ISentry
     {
         throw new System.NotImplementedException();
     }
+
+    public void Die()
+    {
+        throw new System.NotImplementedException();
+    }
 }

@@ -17,6 +17,7 @@ public class EnemyTest : MonoBehaviour , IEnemy
     bool ded = false;
     private ParticleSystem gothit;
     public int materialReward = 0;
+    public bool ToAttack;
     public void TakeDMG(int DMG)
     {
         HP -= DMG;
@@ -28,7 +29,6 @@ public class EnemyTest : MonoBehaviour , IEnemy
                 Mamah.enemiesSpawmned--;
                 BuildingManager.Instance.techMaterial += materialReward;
             }
-
             ded = true;     
             Destroy(gameObject);
         }
@@ -37,6 +37,7 @@ public class EnemyTest : MonoBehaviour , IEnemy
     {
         gothit = GetComponentInChildren<ParticleSystem>();
         Mamah = GameObject.FindAnyObjectByType<WaveManager>();
+        if (ToAttack) InvokeRepeating("DealSentryDMG", 0f, 2f);
     }
     void Update()
     {
@@ -84,9 +85,18 @@ public class EnemyTest : MonoBehaviour , IEnemy
         currentWaypoint = waypoints[i];
     }
 
-    public void DealSentryDMG(int DMG)
+    public void DealSentryDMG()
     {
-        throw new System.NotImplementedException();
+        Debug.Log("DMG called");
+        Collider[] colliders = Physics.OverlapSphere(transform.position, 5);
+        if (colliders.Length > 0)
+        {
+            foreach (Collider collider in colliders)
+            {
+                if(collider.GetComponent<ISentry>() != null) collider.GetComponent<ISentry>().TakeDMG(SentryDMG);
+            }
+            Debug.Log("DMG dealt");
+        }    
     }
 
     public void DealHouseDMG(int DMG)
