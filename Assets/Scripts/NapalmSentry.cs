@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using Unity.VisualScripting;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
 
@@ -36,13 +37,13 @@ public class NapalmSentry : MonoBehaviour , ISentry
         currentHP = maxHP;
         audioSource = GetComponent<AudioSource>();
     }
-    void Update()
+    void FixedUpdate()
     {
         if (walk)
         {
             animator.SetBool("Walk", walk);
             transform.LookAt(nodePosition.position);
-            transform.Translate(nodePosition.position * Time.deltaTime);            
+            transform.position = Vector3.MoveTowards(transform.position, nodePosition.position, 1f);
             if (Vector3.Distance(transform.position,nodePosition.position) < 1)
             {
                 walk = false;

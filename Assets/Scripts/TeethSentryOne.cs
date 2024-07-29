@@ -8,6 +8,7 @@ public class TeethSentryOne : MonoBehaviour , ISentry
     public static float StatRange = 15;
     public float UsableRange;
     public Transform Target,RotatingPiece;
+    Transform nodePosition;
     SphereCollider SphereCollider;
     public GameObject RangeVis;
     public List<Transform> EnemyQueue = new List<Transform>();
@@ -19,12 +20,14 @@ public class TeethSentryOne : MonoBehaviour , ISentry
     public GameObject Projectile;
     float nextFireTime;
     public float fireRate;
-    public bool active;
+    public bool active,walk;
     public AudioClip ShootSound;
     AudioSource ShootSource;
     public int price = 0;
+    Animator animator;
     private void Start()
     {
+        animator = GetComponentInChildren<Animator>();
         SphereCollider = GetComponent<SphereCollider>();
         UsableRange = StatRange;
         RangeVis.transform.localScale = new Vector3(UsableRange, 1, UsableRange);
@@ -35,8 +38,19 @@ public class TeethSentryOne : MonoBehaviour , ISentry
     // Update is called once per frame
     void Update()
     {
-       
-        if (active) 
+        if (walk)
+        {
+            animator.SetBool("Walk", walk);
+            transform.LookAt(nodePosition.position);
+            transform.position = Vector3.MoveTowards(transform.position, nodePosition.position, 1f);
+            if (Vector3.Distance(transform.position, nodePosition.position) < 1)
+            {
+                walk = false;
+                animator.SetBool("Walk", walk);
+                active = true;
+            }
+        }
+        else if (active) 
         {
             if (SphereCollider.radius != UsableRange / 2)
             {
@@ -150,7 +164,8 @@ public class TeethSentryOne : MonoBehaviour , ISentry
 
     public void WalkTo(Transform nodeTransform)
     {
-        throw new System.NotImplementedException();
+        nodePosition = nodeTransform;
+        walk = true;
     }
 
     public void Die()
