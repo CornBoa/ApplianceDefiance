@@ -65,10 +65,6 @@ public class NodeTest : MonoBehaviour
                 elevator.handledSentry = sentryInstalled;
                 elevator.Spawn(this);
                 occupied = true;
-                foreach (GameObject mesh in sentryInstalled.GetMeshes())
-                {
-                    mesh.GetComponent<MeshRenderer>().material.color = Color.gray;
-                }
                 GameObject RangeVis = sentryInstalled.GetRangeVisual();
                 if (RangeVis != null) RangeVis.SetActive(false);
                 Destroy(sentryHolo);

@@ -42,7 +42,7 @@ public class TeethSentryOne : MonoBehaviour , ISentry
         {
             animator.SetBool("Walk", walk);
             transform.LookAt(nodePosition.position);
-            transform.position = Vector3.MoveTowards(transform.position, nodePosition.position, 1f);
+            transform.position = Vector3.MoveTowards(transform.position, nodePosition.position, 0.1f);
             if (Vector3.Distance(transform.position, nodePosition.position) < 1)
             {
                 walk = false;
@@ -132,6 +132,10 @@ public class TeethSentryOne : MonoBehaviour , ISentry
     public void TakeDMG(int DMG)
     {
         currentHP -= DMG;
+        if (currentHP < 0)
+        {
+            Die();
+        }
     }
     void Shoot()
     {
@@ -170,6 +174,7 @@ public class TeethSentryOne : MonoBehaviour , ISentry
 
     public void Die()
     {
-        throw new System.NotImplementedException();
+        animator.SetTrigger("Die");
+        active = false;
     }
 }

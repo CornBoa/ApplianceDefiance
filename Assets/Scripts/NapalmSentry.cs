@@ -127,6 +127,10 @@ public class NapalmSentry : MonoBehaviour , ISentry
     public void TakeDMG(int DMG)
     {
         currentHP -= DMG;
+        if (currentHP < 0)
+        {
+            Die();
+        }
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -179,6 +183,7 @@ public class NapalmSentry : MonoBehaviour , ISentry
 
     public void Die()
     {
-        throw new System.NotImplementedException();
+        animator.SetTrigger("Die");
+        active = false;
     }
 }
