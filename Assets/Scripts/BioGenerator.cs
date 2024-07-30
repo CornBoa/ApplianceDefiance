@@ -13,7 +13,8 @@ public class BioGenerator : MonoBehaviour,ISentry
     public List<GameObject> meshesObjects;
     public int price;
     int HP = 5;
-    bool activated;
+    Transform nodePosition;
+    bool activated, walk;
     Slider slider;
     public void Activate()
     {
@@ -58,6 +59,7 @@ public class BioGenerator : MonoBehaviour,ISentry
     public void TakeDMG(int DMG)
     {
         HP -= DMG;
+        if (HP <= 0) Die();
     }
 
     // Start is called before the first frame update
@@ -71,6 +73,16 @@ public class BioGenerator : MonoBehaviour,ISentry
     // Update is called once per frame
     private void Update()
     {
+        if (walk)
+        {
+            transform.LookAt(nodePosition.position);
+            transform.position = Vector3.MoveTowards(transform.position, nodePosition.position, 1f);
+            if (Vector3.Distance(transform.position, nodePosition.position) < 1)
+            {
+                walk = false;
+                activated = true;
+            }
+        }
         if (activated)
         {
             if (slider.value <= resupRate && slider.value != 0)
@@ -87,11 +99,16 @@ public class BioGenerator : MonoBehaviour,ISentry
 
     public void WalkTo(Transform nodeTransform)
     {
-        throw new NotImplementedException();
+        nodePosition = nodeTransform;
+        walk = true;
     }
 
     public void Die()
     {
         throw new NotImplementedException();
+    }
+    public void CashBack()
+    {
+        BuildingManager.Instance.techMaterial += Convert.ToInt32(price * 0.25f);
     }
 }

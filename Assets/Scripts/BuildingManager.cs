@@ -19,6 +19,7 @@ public class BuildingManager : MonoBehaviour
     public TextMeshProUGUI BioText,TechText;
     public AudioClip PickSound;
     AudioSource PickSource;
+    public bool DestructionMode;
     void Awake()
     {
         if (Instance == null)
@@ -46,6 +47,7 @@ public class BuildingManager : MonoBehaviour
         {
             currentSentry = null;
             buildMode = false;
+            DestructionMode = false;
         }
         BioText.text = bioMaterial.ToString();
         TechText.text = techMaterial.ToString();
@@ -78,5 +80,15 @@ public class BuildingManager : MonoBehaviour
         {
             return false;
         }
+    }
+    public void DestructionOnOff()
+    {
+        if(DestructionMode)DestructionMode = false;
+        else
+        {
+            currentSentry = null;
+            DestructionMode = true;
+        }
+
     }
 }

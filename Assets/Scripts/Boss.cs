@@ -1,15 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
+using UnityEngine.Events;
 using static UnityEngine.GraphicsBuffer;
 
-public class EnemyTest : MonoBehaviour , IEnemy
+public class Boss : MonoBehaviour , IEnemy
 {
-    public float HP = 10;
+    public float HP = 200;
     public List<Transform> waypoints;
     Transform currentWaypoint;
-    public bool facingTarget = false,reachedTarget = false;
-    public float damping =2;
+    public bool facingTarget = false, reachedTarget = false;
+    public float damping = 2;
     int i = 0;
     public float speed;
     public int HouseDMG, SentryDMG;
@@ -17,31 +19,33 @@ public class EnemyTest : MonoBehaviour , IEnemy
     bool ded = false;
     private ParticleSystem gothit;
     public int materialReward = 0;
-    public bool ToAttack;
+    public bool AttackIng;
+    public UnityEvent OnHouseReached, OnDeath;
+    float AttackTimer;
+    public float fireRate;
     public void TakeDMG(int DMG)
     {
         HP -= DMG;
         gothit.Play();
-        if(HP <= 0) 
+        BuildingManager.Instance.techMaterial += materialReward;
+        if (HP <= 0)
         {
             if (!ded)
             {
                 Mamah.enemiesSpawmned--;
-                BuildingManager.Instance.techMaterial += materialReward;
-            }
-            ded = true;     
-            Destroy(gameObject);
+                ded = true;
+                OnDeath.Invoke();
+            }      
         }
     }
     void Start()
     {
         gothit = GetComponentInChildren<ParticleSystem>();
         Mamah = GameObject.FindAnyObjectByType<WaveManager>();
-        if (ToAttack) InvokeRepeating("DealSentryDMG", 0f, 2f);
     }
     void Update()
     {
-       if(waypoints.Count > 0)
+        if (waypoints.Count > 0)
         {
             if (Vector3.Distance(transform.position, currentWaypoint.position) <= 0.3f)
             {
@@ -52,11 +56,11 @@ public class EnemyTest : MonoBehaviour , IEnemy
                 else GetNextPoint();
             }
             if (Vector3.Distance(transform.position, currentWaypoint.position) >= 0.3f) reachedTarget = false;
-            if (!reachedTarget && facingTarget)
+            if (!reachedTarget && facingTarget && !AttackIng)
             {
                 transform.Translate(Vector3.forward * speed * Time.deltaTime);
             }
-            if (!reachedTarget && !facingTarget)
+            if (!reachedTarget && !facingTarget && !AttackIng)
             {
                 var lookPos = currentWaypoint.position - transform.position;
                 lookPos.y = 0;
@@ -64,7 +68,28 @@ public class EnemyTest : MonoBehaviour , IEnemy
                 transform.rotation = Quaternion.Lerp(transform.rotation, rotation, damping);
                 StartCoroutine(WaitTillFacing(Quaternion.Lerp(transform.rotation, rotation, 1)));
             }
-        }     
+            if (Time.time >= AttackTimer)
+            {
+                AttackTimer = Time.time + fireRate;
+                int whichAttack = Random.Range(0, 2);
+                switch(whichAttack)
+                {
+                    case 0:
+                        AttackOne();
+                        Debug.Log("Attack 1 called");
+                        break;
+                    case 1:
+                        Debug.Log("Attack 2 called");
+                        AttackTwo();
+                        break;
+                    case 2:
+                        Debug.Log("Attack 3 called");
+                        AttackThree();
+                        break;
+
+                }
+            }
+        }
     }
     void GetNextPoint()
     {
@@ -85,29 +110,30 @@ public class EnemyTest : MonoBehaviour , IEnemy
         currentWaypoint = waypoints[i];
     }
 
-    public void DealSentryDMG()
+    public void AttackOne()
     {
-        Debug.Log("DMG called");
-        Collider[] colliders = Physics.OverlapSphere(transform.position, 5);
-        if (colliders.Length > 0)
-        {
-            foreach (Collider collider in colliders)
-            {
-                if(collider.GetComponent<ISentry>() != null) collider.GetComponent<ISentry>().TakeDMG(SentryDMG);
-            }
-            Debug.Log("DMG dealt");
-        }    
+
+    }
+    public void AttackTwo()
+    {
+
+    }
+    public void AttackThree()
+    {
+
     }
 
     public void DealHouseDMG(int DMG)
     {
-        GaymeManager.Instance.TakeDMG(DMG);
-        if (!ded) Mamah.enemiesSpawmned--;
-        ded = true;
-        Destroy(gameObject);
+        OnHouseReached.Invoke();
     }
     public GameObject GetGO()
     {
         return gameObject;
+    }
+
+    public void DealSentryDMG()
+    {
+        throw new System.NotImplementedException();
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -36,13 +37,13 @@ public class TeethSentryOne : MonoBehaviour , ISentry
         ShootSource = GetComponent<AudioSource>();
     }
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (walk)
         {
             animator.SetBool("Walk", walk);
             transform.LookAt(nodePosition.position);
-            transform.position = Vector3.MoveTowards(transform.position, nodePosition.position, 0.1f);
+            transform.position = Vector3.MoveTowards(transform.position, nodePosition.position, 1f);
             if (Vector3.Distance(transform.position, nodePosition.position) < 1)
             {
                 walk = false;
@@ -141,7 +142,7 @@ public class TeethSentryOne : MonoBehaviour , ISentry
     {
         FleshProjectile projectile = Instantiate(Projectile, transform.position, Quaternion.identity).GetComponent<FleshProjectile>();
         projectile.Target = Target;
-        ShootSource.pitch = Random.Range(0.95f, 1.1f);
+        ShootSource.pitch = UnityEngine.Random.Range(0.95f, 1.1f);
         ShootSource.PlayOneShot(ShootSound);
         hunger -= 1 * hungerModifier;
     }
@@ -176,5 +177,10 @@ public class TeethSentryOne : MonoBehaviour , ISentry
     {
         animator.SetTrigger("Die");
         active = false;
+    }
+
+    public void CashBack()
+    {
+        BuildingManager.Instance.bioMaterial += Convert.ToInt32(price * 0.25f);
     }
 }

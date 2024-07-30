@@ -30,6 +30,10 @@ public class NodeTest : MonoBehaviour
                 if (sentryHolo == null) sentryHolo = Instantiate(BuildingManager.Instance.currentSentry.GetGO(), transform.position, transform.rotation);
             }
             else if (BuildingManager.Instance.currentSentry != null) rend.material.color = Color.red;
+            else if (BuildingManager.Instance.DestructionMode && occupied)
+            {
+                rend.material.color = Color.yellow;
+            }
             if (Meat.beingDragged && sentryInstalled != null)
             {
                 Meat.TargetNode = this;
@@ -50,7 +54,7 @@ public class NodeTest : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        if (BuildingManager.Instance.currentSentry != null && !occupied && !buffer && !road && BuildingManager.Instance.IsEnoughMoney())
+        if (BuildingManager.Instance.currentSentry != null && !BuildingManager.Instance.DestructionMode &&  !occupied && !buffer && !road && BuildingManager.Instance.IsEnoughMoney())
         {
             List<Elevator> elevators = FindObjectsOfType<Elevator>().ToList();
             List<Elevator> elevatorsToUse = new List<Elevator>();
@@ -78,5 +82,10 @@ public class NodeTest : MonoBehaviour
                 Debug.Log("All Elevators Occupied");
             }
         }           
+        else if(BuildingManager.Instance.DestructionMode) 
+        {
+            Destroy(sentryInstalled.GetGO());
+            occupied = false;
+        }
     }
 }

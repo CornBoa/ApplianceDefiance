@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -153,7 +154,7 @@ public class NapalmSentry : MonoBehaviour , ISentry
     {
         if (hunger > 0)
         {
-            GameObject Projectile = Instantiate(Projectiles[Random.Range(0, Projectiles.Count)], RotatingPiece.position, Quaternion.identity);
+            GameObject Projectile = Instantiate(Projectiles[UnityEngine.Random.Range(0, Projectiles.Count)], RotatingPiece.position, Quaternion.identity);
             Projectile.GetComponent<FlameProjectile>().napalmSentry = this;
             Rigidbody rb = Projectile.GetComponent<Rigidbody>();
             rb.AddForce((new Vector3(Target.position.x, Target.position.y, Target.position.z) - Projectile.transform.position) * 2, ForceMode.VelocityChange);
@@ -185,5 +186,10 @@ public class NapalmSentry : MonoBehaviour , ISentry
     {
         animator.SetTrigger("Die");
         active = false;
+    }
+
+    public void CashBack()
+    {
+        BuildingManager.Instance.bioMaterial += Convert.ToInt32(price * 0.25f);
     }
 }

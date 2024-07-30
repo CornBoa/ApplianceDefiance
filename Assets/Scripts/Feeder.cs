@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,9 +12,10 @@ public class Feeder : MonoBehaviour,ISentry
     public float feedAmount;
     public float feedRadius;
     int HP = 10;
+    Transform nodePosition;
     public GameObject RangeVis;
     public List<GameObject> meshesObjects;
-    bool activated;
+    bool activated, walk;
     public int price = 0;
     Slider slider;
     void Start()
@@ -40,7 +43,17 @@ public class Feeder : MonoBehaviour,ISentry
     }
     private void Update()
     {
-        if ( activated ) 
+            if (walk)
+            {
+                transform.LookAt(nodePosition.position);
+                transform.position = Vector3.MoveTowards(transform.position, nodePosition.position, 1f);
+                if (Vector3.Distance(transform.position, nodePosition.position) < 1)
+                {
+                    walk = false;
+                    activated = true;
+                }
+            }
+            if ( activated ) 
         {
             if( slider.value <= feedrate && slider.value != 0) 
             {
@@ -73,6 +86,7 @@ public class Feeder : MonoBehaviour,ISentry
     public void TakeDMG(int DMG)
     {
         HP -= DMG;
+        if (HP <= 0) Die();
     }
 
     public void Activate()
@@ -104,6 +118,11 @@ public class Feeder : MonoBehaviour,ISentry
 
     public void Die()
     {
-        throw new System.NotImplementedException();
+        Destroy(gameObject);
+    }
+
+    public void CashBack()
+    {
+        BuildingManager.Instance.techMaterial += Convert.ToInt32(price * 0.25f);
     }
 }
