@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 014d3190d5d700641a2182c2fa2f8511, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 2000
+  HP: 1000
   waypoints: []
   facingTarget: 0
   reachedTarget: 0

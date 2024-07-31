@@ -27,7 +27,7 @@ public class WaveManager : MonoBehaviour
         nextSpawnTimes = new float[currentGroup.enemyPrefabs.Count];
         for (int i = 0; i < nextSpawnTimes.Length; i++)
         {
-            nextSpawnTimes[i] = Time.time + currentGroup.spawnIntervals[i];
+            nextSpawnTimes[i] = currentGroup.spawnIntervals[i];
         }
         spawnPosition = currentLayout.transformList[0];
     }
@@ -77,6 +77,7 @@ public class WaveManager : MonoBehaviour
         groupIndex = 0;
         currentWave = waves[waveIndex];
         currentGroup = waves[waveIndex].groupsOfWave[groupIndex];
+        nextSpawnTimes = currentGroup.spawnIntervals;
         WaveGoing = true;
 
     }
@@ -91,9 +92,9 @@ public class WaveManager : MonoBehaviour
         }   
         else if(currentGroup.spawnAmount[index] == 0)
         {
-            currentGroup.enemyPrefabs.RemoveAt(index);
-            StartCoroutine(TimeBetweenGroups());
+            currentGroup.enemyPrefabs.RemoveAt(index);           
         }
+        if (currentGroup.spawnAmount.Length == 0) StartCoroutine(TimeBetweenGroups());
     }
 }
 [System.Serializable]
