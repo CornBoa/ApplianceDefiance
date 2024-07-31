@@ -15,7 +15,6 @@ public class Boss : MonoBehaviour , IEnemy
     int i = 0;
     public float speed;
     public int HouseDMG, SentryDMG;
-    WaveManager Mamah;
     bool ded = false;
     private ParticleSystem gothit;
     public int materialReward = 0;
@@ -32,7 +31,7 @@ public class Boss : MonoBehaviour , IEnemy
         {
             if (!ded)
             {
-                Mamah.enemiesSpawmned--;
+                WaveSpawner.Instance.EnemyDied();
                 ded = true;
                 OnDeath.Invoke();
             }      
@@ -41,7 +40,6 @@ public class Boss : MonoBehaviour , IEnemy
     void Start()
     {
         gothit = GetComponentInChildren<ParticleSystem>();
-        Mamah = GameObject.FindAnyObjectByType<WaveManager>();
     }
     void Update()
     {

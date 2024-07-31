@@ -13,7 +13,6 @@ public class EnemyTest : MonoBehaviour , IEnemy
     int i = 0;
     public float speed;
     public int HouseDMG, SentryDMG;
-    WaveManager Mamah;
     bool ded = false;
     private ParticleSystem gothit;
     public int materialReward = 0;
@@ -26,7 +25,7 @@ public class EnemyTest : MonoBehaviour , IEnemy
         {
             if (!ded)
             {
-                Mamah.enemiesSpawmned--;
+                WaveSpawner.Instance.EnemyDied();
                 BuildingManager.Instance.techMaterial += materialReward;
             }
             ded = true;     
@@ -36,7 +35,6 @@ public class EnemyTest : MonoBehaviour , IEnemy
     void Start()
     {
         gothit = GetComponentInChildren<ParticleSystem>();
-        Mamah = GameObject.FindAnyObjectByType<WaveManager>();
         if (ToAttack) InvokeRepeating("DealSentryDMG", 0f, 2f);
     }
     void Update()
@@ -102,7 +100,7 @@ public class EnemyTest : MonoBehaviour , IEnemy
     public void DealHouseDMG(int DMG)
     {
         GaymeManager.Instance.TakeDMG(DMG);
-        if (!ded) Mamah.enemiesSpawmned--;
+        if (!ded) WaveSpawner.Instance.EnemyDied(); 
         ded = true;
         Destroy(gameObject);
     }

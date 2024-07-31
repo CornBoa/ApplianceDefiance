@@ -1,124 +1,105 @@
 using JetBrains.Annotations;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class WaveManager : MonoBehaviour
+public class WaveSpawner : MonoBehaviour
 {
-    public Wave currentWave;
-    public List<Wave> waves;
-    Group currentGroup;
-    private float[] nextSpawnTimes;
-    public Transform spawnPosition;
+    [System.Serializable]
+    public class EnemyGroup
+    {
+        public GameObject enemyPrefab; 
+        public int amount;        
+        public float interval;     
+    }
+
+    [System.Serializable]
+    public class Wave
+    {
+        public EnemyGroup[] enemyGroups; 
+        public UnityEvent onWaveEnd;
+    }
+
+    public Wave[] waves;
+    public float timeBetweenWaves; 
+
+    public int currentWaveIndex = 0;
+    public bool waveInProgress = false;
+    private int enemiesAlive = 0;
+    public static WaveSpawner Instance { get; private set; }
+
     public List<MapLayout> layouts;
+    public Transform spawnPosition;
     MapLayout currentLayout;
-    public float timeBetweenWaves;
-    int waveIndex = 0;
-    int groupIndex = 0;
-    public int enemiesSpawmned;
-    public bool WaveGoing = false;
+    void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     void Start()
     {
         currentLayout = layouts[0];
-        currentWave = waves[waveIndex];
-        currentGroup = waves[waveIndex].groupsOfWave[groupIndex];
-        nextSpawnTimes = new float[currentGroup.enemyPrefabs.Count];
-        for (int i = 0; i < nextSpawnTimes.Length; i++)
-        {
-            nextSpawnTimes[i] = currentGroup.spawnIntervals[i];
-        }
         spawnPosition = currentLayout.transformList[0];
     }
-    public void StartWaves()
+
+    public void StartNextWave()
     {
-        WaveGoing = true;
-    }
-    void Update()
-    {
-        if (WaveGoing)
+        if (!waveInProgress && currentWaveIndex < waves.Length)
         {
-            for (int i = 0; i < currentGroup.enemyPrefabs.Count; i++)
-            {
-                if (Time.time >= nextSpawnTimes[i])
-                {
-                    SpawnEnemy(i);
-                    nextSpawnTimes[i] = Time.time + currentGroup.spawnIntervals[i];
-                }
-            }
+            Debug.Log("Start NExt Wave Called");
+            StartCoroutine(SpawnWave(waves[currentWaveIndex]));
         }
     }
-    public IEnumerator TimeBetweenGroups()
-    {
-           if (groupIndex < waves[waveIndex].groupsOfWave.Length-1)
-           {
-                yield return new WaitForSeconds(waves[waveIndex].groupsOfWave[groupIndex].timeBeforeNextGroup);
-                groupIndex++;
-                currentGroup = waves[waveIndex].groupsOfWave[groupIndex];
-           }
-           else 
-           {
-                yield return new WaitUntil(() => enemiesSpawmned == 0);
-                WaveGoing = false;
-                Debug.Log("OnWaveEndCalled");
-                currentWave.OnWaveEnd.Invoke();
-           }       
-    }
-    public void StartWaveEnum()
-    {
-        Debug.Log("WaveCooldownStarted");
-        StartCoroutine(StartNextWave());
-    }
-    public IEnumerator StartNextWave()
-    {
-        yield return new WaitForSeconds(timeBetweenWaves);
-        waveIndex++;
-        groupIndex = 0;
-        currentWave = waves[waveIndex];
-        currentGroup = waves[waveIndex].groupsOfWave[groupIndex];
-        nextSpawnTimes = currentGroup.spawnIntervals;
-        WaveGoing = true;
 
-    }
-    void SpawnEnemy(int index)
+    IEnumerator SpawnWave(Wave wave)
     {
-        if (currentGroup.spawnAmount[index] > 0)
+        waveInProgress = true;
+        Debug.Log("WaveSpawned")
+        // Loop through each enemy group in the wave
+        foreach (EnemyGroup group in wave.enemyGroups)
         {
-            IEnemy enemy = Instantiate(currentGroup.enemyPrefabs[index], spawnPosition.position, Quaternion.identity).GetComponent<IEnemy>();
+            yield return StartCoroutine(SpawnEnemyGroup(group));
+        }
+        while (enemiesAlive > 0)
+        {
+            yield return null;
+        }
+        // Trigger the onWaveEnd event
+        wave.onWaveEnd.Invoke();
+
+        // Move to the next wave
+        currentWaveIndex++;
+        waveInProgress = false;
+
+        // Optionally, wait for timeBetweenWaves before allowing the next wave to start
+        // yield return new WaitForSeconds(timeBetweenWaves);
+    }
+
+    IEnumerator SpawnEnemyGroup(EnemyGroup group)
+    {
+        Debug.Log("SpawnEnemyGroup called");
+        for (int i = 0; i < group.amount; i++)
+        {
+            // Spawn enemy at the position of the WaveSpawner
+            IEnemy enemy = Instantiate(group.enemyPrefab, spawnPosition.position, Quaternion.identity).GetComponent<IEnemy>();
             enemy.SetLayout(currentLayout);
-            currentGroup.spawnAmount[index]--;
-            enemiesSpawmned++;
-        }   
-        else if(currentGroup.spawnAmount[index] == 0)
-        {
-            currentGroup.enemyPrefabs.RemoveAt(index);           
+            enemiesAlive++;
+            yield return new WaitForSeconds(group.interval);
         }
-        if (currentGroup.spawnAmount.Length == 0) StartCoroutine(TimeBetweenGroups());
     }
-}
-[System.Serializable]
-public class Wave
-{
-    public Group[] groupsOfWave;
-    public UnityEvent OnWaveEnd;
-    void StartWave()
+    public void EnemyDied()
     {
-        foreach (var group in groupsOfWave)
-        {
-            group.mamaWave = this;
-        }
+        enemiesAlive--;
     }
-}
-
-[System.Serializable]
-public class Group
-{
-    public List<GameObject> enemyPrefabs;
-    public float[] spawnIntervals;
-    public int[] spawnAmount;
-    public float timeBeforeNextGroup;
-    public Wave mamaWave;
 }
 [System.Serializable]
 public class MapLayout

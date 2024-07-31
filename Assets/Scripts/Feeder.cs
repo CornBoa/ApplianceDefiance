@@ -113,7 +113,8 @@ public class Feeder : MonoBehaviour,ISentry
 
     public void WalkTo(Transform nodeTransform)
     {
-        throw new System.NotImplementedException();
+        nodePosition = nodeTransform;
+        walk = true;
     }
 
     public void Die()
