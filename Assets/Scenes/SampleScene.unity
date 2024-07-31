@@ -42907,23 +42907,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - text: Sr.P.Dour!:What a wonderful day to be a brain in a jar!
+    - text: Dr.P.Dour!:What a wonderful day to be a brain in a jar!
       rightLeftSide: 1
       choice: 0
       portrait: {fileID: 21300000, guid: 21dc202687271ca40b3038abf1053df1, type: 3}
-    - text: Mr. Plaze Haulder!:Kill yourself
+    - text: Dr. Plaze Haulder!:Kill yourself
       rightLeftSide: 0
       choice: 0
       portrait: {fileID: 21300000, guid: 1dc9e3fe97a60284492e9e1cb462a6ef, type: 3}
-    - text: Sr.P.Dour!:...
+    - text: Dr.P.Dour!:...
       rightLeftSide: 1
       choice: 0
       portrait: {fileID: 21300000, guid: 8119c4dcf5820854c9bfb7ce76af45b0, type: 3}
-    - text: Sr.P.Dour!:...
+    - text: Dr.P.Dour!:...
       rightLeftSide: 1
       choice: 0
       portrait: {fileID: 21300000, guid: e32320a228323c847a875a885ccc3324, type: 3}
-    - text: 'Sr.P.Dour!:I will burn this planet to the ground '
+    - text: 'Dr.P.Dour!:I will burn this planet to the ground '
       rightLeftSide: 1
       choice: 0
       portrait: {fileID: 21300000, guid: 91a2fcccfae56874ea77bfc4790c742d, type: 3}
