@@ -28,6 +28,7 @@ public class NapalmSentry : MonoBehaviour , ISentry
     AudioSource audioSource;
     public AudioClip shoot;
     Animator animator;
+    NodeTest myNode;
     private void Start()
     {
         animator = GetComponentInChildren<Animator>();
@@ -186,10 +187,23 @@ public class NapalmSentry : MonoBehaviour , ISentry
     {
         animator.SetTrigger("Die");
         active = false;
+        myNode.occupied = false;
+        StartCoroutine(Disappear());
+    }
+    IEnumerator Disappear()
+    {
+        yield return new WaitForSeconds(3);
+        Destroy(gameObject);
     }
 
     public void CashBack()
     {
         BuildingManager.Instance.bioMaterial += Convert.ToInt32(price * 0.25f);
     }
+
+    public void MyNode(NodeTest node)
+    {
+        myNode = node;
+    }
+
 }

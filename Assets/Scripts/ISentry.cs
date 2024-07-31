@@ -13,6 +13,7 @@ public interface ISentry
     abstract public void SpendCredit();
     abstract public bool EnoughMaterial();
     abstract public void Die();
+    abstract public void MyNode(NodeTest node);
     abstract public void CashBack();
     abstract public void WalkTo(Transform nodeTransform);
 }

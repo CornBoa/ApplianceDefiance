@@ -63,7 +63,7 @@ public class WaveSpawner : MonoBehaviour
     IEnumerator SpawnWave(Wave wave)
     {
         waveInProgress = true;
-        Debug.Log("WaveSpawned")
+        Debug.Log("WaveSpawned");
         // Loop through each enemy group in the wave
         foreach (EnemyGroup group in wave.enemyGroups)
         {
@@ -74,12 +74,12 @@ public class WaveSpawner : MonoBehaviour
             yield return null;
         }
         // Trigger the onWaveEnd event
-        wave.onWaveEnd.Invoke();
+        
 
         // Move to the next wave
         currentWaveIndex++;
         waveInProgress = false;
-
+        wave.onWaveEnd.Invoke();
         // Optionally, wait for timeBetweenWaves before allowing the next wave to start
         // yield return new WaitForSeconds(timeBetweenWaves);
     }

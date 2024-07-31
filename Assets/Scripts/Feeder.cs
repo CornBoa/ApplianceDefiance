@@ -18,6 +18,7 @@ public class Feeder : MonoBehaviour,ISentry
     bool activated, walk;
     public int price = 0;
     Slider slider;
+    NodeTest myNode;
     void Start()
     {
         RangeVis.transform.localScale = new Vector3(feedRadius, 1, feedRadius);  
@@ -119,11 +120,18 @@ public class Feeder : MonoBehaviour,ISentry
 
     public void Die()
     {
+        myNode.occupied = false;
         Destroy(gameObject);
+
     }
 
     public void CashBack()
     {
         BuildingManager.Instance.techMaterial += Convert.ToInt32(price * 0.25f);
+    }
+
+    public void MyNode(NodeTest node)
+    {
+        myNode = node;
     }
 }

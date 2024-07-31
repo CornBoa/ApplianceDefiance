@@ -7492,7 +7492,7 @@ RectTransform:
   m_Father: {fileID: 674625014}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -8855,6 +8855,7 @@ RectTransform:
   - {fileID: 87641611}
   - {fileID: 1279042025}
   - {fileID: 2022101710}
+  - {fileID: 1282482364}
   m_Father: {fileID: 1977414556}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
@@ -30539,16 +30540,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282482363}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 2084164749}
+  m_Father: {fileID: 534114572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 501.6, y: -168}
+  m_AnchoredPosition: {x: 117.3, y: -12.8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1282482365
@@ -33851,227 +33852,121 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9ca6bf3622d4e74c8a0c4ae58877d7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentWave:
-    groupsOfWave:
-    - enemyPrefabs: []
-      spawnIntervals: []
-      spawnAmount: 
-      timeBeforeNextGroup: 0
-      mamaWave:
-        groupsOfWave: []
-        OnWaveEnd:
-          m_PersistentCalls:
-            m_Calls: []
-    OnWaveEnd:
+  waves:
+  - enemyGroups:
+    - enemyPrefab: {fileID: 3782417679900782960, guid: bc8a40ebaa1b20b43a46f074899f908c,
+        type: 3}
+      amount: 5
+      interval: 2
+    onWaveEnd:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1559382252}
+          m_TargetAssemblyTypeName: WaveSpawner, Assembly-CSharp
+          m_MethodName: StartNextWave
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - enemyGroups:
+    - enemyPrefab: {fileID: 3782417679900782960, guid: bc8a40ebaa1b20b43a46f074899f908c,
+        type: 3}
+      amount: 10
+      interval: 2
+    - enemyPrefab: {fileID: 3782417679900782960, guid: bc8a40ebaa1b20b43a46f074899f908c,
+        type: 3}
+      amount: 5
+      interval: 1
+    - enemyPrefab: {fileID: 3782417679900782960, guid: 6a9bbabcc0449db49996e981a65767d7,
+        type: 3}
+      amount: 2
+      interval: 2
+    onWaveEnd:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1559382252}
+          m_TargetAssemblyTypeName: WaveSpawner, Assembly-CSharp
+          m_MethodName: StartNextWave
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - enemyGroups:
+    - enemyPrefab: {fileID: 3782417679900782960, guid: 6a9bbabcc0449db49996e981a65767d7,
+        type: 3}
+      amount: 5
+      interval: 3
+    - enemyPrefab: {fileID: 3782417679900782960, guid: bc8a40ebaa1b20b43a46f074899f908c,
+        type: 3}
+      amount: 15
+      interval: 2
+    - enemyPrefab: {fileID: 3782417679900782960, guid: bc8a40ebaa1b20b43a46f074899f908c,
+        type: 3}
+      amount: 10
+      interval: 1
+    onWaveEnd:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1559382252}
+          m_TargetAssemblyTypeName: WaveSpawner, Assembly-CSharp
+          m_MethodName: StartNextWave
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - enemyGroups:
+    - enemyPrefab: {fileID: 3782417679900782960, guid: 6a9bbabcc0449db49996e981a65767d7,
+        type: 3}
+      amount: 10
+      interval: 4
+    - enemyPrefab: {fileID: 0}
+      amount: 20
+      interval: 1
+    - enemyPrefab: {fileID: 7860997693930622186, guid: 3f2e64d729bde934aa18b740fb6c6984,
+        type: 3}
+      amount: 1
+      interval: 1
+    onWaveEnd:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1559382252}
+          m_TargetAssemblyTypeName: WaveSpawner, Assembly-CSharp
+          m_MethodName: StartNextWave
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - enemyGroups:
+    - enemyPrefab: {fileID: 7992900590878452187, guid: d30de6d30e164b346a95b13b54d56aee,
+        type: 3}
+      amount: 1
+      interval: 0
+    onWaveEnd:
       m_PersistentCalls:
         m_Calls: []
-  waves:
-  - groupsOfWave:
-    - enemyPrefabs:
-      - {fileID: 3782417679900782960, guid: bc8a40ebaa1b20b43a46f074899f908c, type: 3}
-      spawnIntervals:
-      - 2
-      spawnAmount: 05000000
-      timeBeforeNextGroup: 3
-      mamaWave:
-        groupsOfWave: []
-        OnWaveEnd:
-          m_PersistentCalls:
-            m_Calls: []
-    - enemyPrefabs:
-      - {fileID: 3782417679900782960, guid: bc8a40ebaa1b20b43a46f074899f908c, type: 3}
-      spawnIntervals:
-      - 2
-      spawnAmount: 0a000000
-      timeBeforeNextGroup: 3
-      mamaWave:
-        groupsOfWave: []
-        OnWaveEnd:
-          m_PersistentCalls:
-            m_Calls: []
-    - enemyPrefabs:
-      - {fileID: 3782417679900782960, guid: bc8a40ebaa1b20b43a46f074899f908c, type: 3}
-      spawnIntervals:
-      - 1
-      spawnAmount: 0f000000
-      timeBeforeNextGroup: 5
-      mamaWave:
-        groupsOfWave: []
-        OnWaveEnd:
-          m_PersistentCalls:
-            m_Calls: []
-    OnWaveEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1559382252}
-          m_TargetAssemblyTypeName: WaveManager, Assembly-CSharp
-          m_MethodName: StartWaveEnum
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - groupsOfWave:
-    - enemyPrefabs:
-      - {fileID: 3782417679900782960, guid: 6a9bbabcc0449db49996e981a65767d7, type: 3}
-      - {fileID: 3782417679900782960, guid: bc8a40ebaa1b20b43a46f074899f908c, type: 3}
-      spawnIntervals:
-      - 2
-      - 1
-      spawnAmount: 050000000a000000
-      timeBeforeNextGroup: 5
-      mamaWave:
-        groupsOfWave: []
-        OnWaveEnd:
-          m_PersistentCalls:
-            m_Calls: []
-    - enemyPrefabs:
-      - {fileID: 3782417679900782960, guid: 6a9bbabcc0449db49996e981a65767d7, type: 3}
-      spawnIntervals:
-      - 2
-      spawnAmount: 05000000
-      timeBeforeNextGroup: 5
-      mamaWave:
-        groupsOfWave: []
-        OnWaveEnd:
-          m_PersistentCalls:
-            m_Calls: []
-    OnWaveEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1559382252}
-          m_TargetAssemblyTypeName: WaveManager, Assembly-CSharp
-          m_MethodName: StartWaveEnum
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - groupsOfWave:
-    - enemyPrefabs:
-      - {fileID: 3782417679900782960, guid: bc8a40ebaa1b20b43a46f074899f908c, type: 3}
-      spawnIntervals:
-      - 1
-      spawnAmount: 14000000
-      timeBeforeNextGroup: 5
-      mamaWave:
-        groupsOfWave: []
-        OnWaveEnd:
-          m_PersistentCalls:
-            m_Calls: []
-    - enemyPrefabs:
-      - {fileID: 3782417679900782960, guid: 6a9bbabcc0449db49996e981a65767d7, type: 3}
-      spawnIntervals:
-      - 3
-      spawnAmount: 05000000
-      timeBeforeNextGroup: 5
-      mamaWave:
-        groupsOfWave: []
-        OnWaveEnd:
-          m_PersistentCalls:
-            m_Calls: []
-    - enemyPrefabs:
-      - {fileID: 3782417679900782960, guid: 6a9bbabcc0449db49996e981a65767d7, type: 3}
-      - {fileID: 3782417679900782960, guid: bc8a40ebaa1b20b43a46f074899f908c, type: 3}
-      spawnIntervals:
-      - 5
-      - 2
-      spawnAmount: 050000000a000000
-      timeBeforeNextGroup: 5
-      mamaWave:
-        groupsOfWave: []
-        OnWaveEnd:
-          m_PersistentCalls:
-            m_Calls: []
-    - enemyPrefabs:
-      - {fileID: 7860997693930622186, guid: 3f2e64d729bde934aa18b740fb6c6984, type: 3}
-      spawnIntervals:
-      - 0
-      spawnAmount: 01000000
-      timeBeforeNextGroup: 5
-      mamaWave:
-        groupsOfWave: []
-        OnWaveEnd:
-          m_PersistentCalls:
-            m_Calls: []
-    OnWaveEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1559382252}
-          m_TargetAssemblyTypeName: WaveManager, Assembly-CSharp
-          m_MethodName: StartWaveEnum
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - groupsOfWave:
-    - enemyPrefabs:
-      - {fileID: 7860997693930622186, guid: 3f2e64d729bde934aa18b740fb6c6984, type: 3}
-      spawnIntervals:
-      - 5
-      spawnAmount: 05000000
-      timeBeforeNextGroup: 5
-      mamaWave:
-        groupsOfWave: []
-        OnWaveEnd:
-          m_PersistentCalls:
-            m_Calls: []
-    OnWaveEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1559382252}
-          m_TargetAssemblyTypeName: WaveManager, Assembly-CSharp
-          m_MethodName: StartWaveEnum
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - groupsOfWave:
-    - enemyPrefabs:
-      - {fileID: 7992900590878452187, guid: d30de6d30e164b346a95b13b54d56aee, type: 3}
-      spawnIntervals:
-      - 0
-      spawnAmount: 01000000
-      timeBeforeNextGroup: 0
-      mamaWave:
-        groupsOfWave: []
-        OnWaveEnd:
-          m_PersistentCalls:
-            m_Calls: []
-    OnWaveEnd:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
-          m_Mode: 0
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  spawnPosition: {fileID: 0}
+  timeBetweenWaves: 5
+  currentWaveIndex: 0
+  waveInProgress: 0
   layouts:
   - transformList:
     - {fileID: 1215295160}
@@ -34080,9 +33975,7 @@ MonoBehaviour:
     - {fileID: 194629511}
     - {fileID: 376093838}
     - {fileID: 576051573}
-  timeBetweenWaves: 5
-  enemiesSpawmned: 0
-  WaveGoing: 0
+  spawnPosition: {fileID: 0}
 --- !u!4 &1559382253
 Transform:
   m_ObjectHideFlags: 0
@@ -42093,7 +41986,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2084164746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42170,7 +42063,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1977414556}
-  - {fileID: 1282482364}
   - {fileID: 1203440828}
   - {fileID: 622416856}
   - {fileID: 737586096}
@@ -43010,7 +42902,7 @@ MonoBehaviour:
     - text: Dr. Plaze Haulder!:Kill yourself
       rightLeftSide: 0
       choice: 0
-      portrait: {fileID: 21300000, guid: 1dc9e3fe97a60284492e9e1cb462a6ef, type: 3}
+      portrait: {fileID: 21300000, guid: eeb0549ac5a6bfd4c9353d4b0e36363b, type: 3}
     - text: Dr.P.Dour!:...
       rightLeftSide: 1
       choice: 0
@@ -43039,8 +42931,8 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1559382252}
-        m_TargetAssemblyTypeName: WaveManager, Assembly-CSharp
-        m_MethodName: StartWaves
+        m_TargetAssemblyTypeName: WaveSpawner, Assembly-CSharp
+        m_MethodName: StartNextWave
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

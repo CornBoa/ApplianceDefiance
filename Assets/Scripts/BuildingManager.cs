@@ -61,6 +61,7 @@ public class BuildingManager : MonoBehaviour
         PickSource.PlayOneShot(PickSound);
         buildMode = true;
         currentSentry = listOfSentries[index];
+        DestructionMode = false;
     }
     public void SentryUnset()
     {

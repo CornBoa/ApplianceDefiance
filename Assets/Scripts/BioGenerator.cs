@@ -16,6 +16,7 @@ public class BioGenerator : MonoBehaviour,ISentry
     Transform nodePosition;
     bool activated, walk;
     Slider slider;
+    NodeTest myNode;
     public void Activate()
     {
         activated = true;
@@ -105,10 +106,16 @@ public class BioGenerator : MonoBehaviour,ISentry
 
     public void Die()
     {
-        throw new NotImplementedException();
+        myNode.occupied = false;
+        Destroy(gameObject);
     }
     public void CashBack()
     {
         BuildingManager.Instance.techMaterial += Convert.ToInt32(price * 0.25f);
+    }
+
+    public void MyNode(NodeTest node)
+    {
+        myNode = node;
     }
 }
