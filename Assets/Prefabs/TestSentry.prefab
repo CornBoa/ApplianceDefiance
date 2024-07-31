@@ -3960,7 +3960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5cbb1e604ace854b9cbc242ef37d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UsableRange: 0
+  UsableRange: 30
   Target: {fileID: 0}
   RotatingPiece: {fileID: 4232737957797590451}
   RangeVis: {fileID: 5200918291019062681}

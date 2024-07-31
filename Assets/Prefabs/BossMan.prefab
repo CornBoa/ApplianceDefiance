@@ -55,7 +55,8 @@ MonoBehaviour:
   damping: 2
   speed: 1
   HouseDMG: 0
-  SentryDMG: 0
+  SentryGroundDMG: 0
+  SentrySpinDMG: 0
   materialReward: 10
   AttackIng: 0
   OnHouseReached:
@@ -65,6 +66,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   fireRate: 0
+  LeftHand: {fileID: 0}
+  RightHand: {fileID: 0}
+  RocketPrefab: {fileID: 8099205090965287553, guid: 3b76729448537fd459168f3f242a2758,
+    type: 3}
+  LeftRightHAnd: 0
 --- !u!65 &5994115348643374741
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -11,12 +11,13 @@ public class EnemyTest : MonoBehaviour , IEnemy
     public bool facingTarget = false,reachedTarget = false;
     public float damping =2;
     int i = 0;
-    public float speed;
+    public float speed, RangeAttack;
     public int HouseDMG, SentryDMG;
     bool ded = false;
     private ParticleSystem gothit;
     public int materialReward = 0;
     public bool ToAttack;
+    public GameObject Aura;
     public void TakeDMG(int DMG)
     {
         HP -= DMG;
@@ -35,7 +36,11 @@ public class EnemyTest : MonoBehaviour , IEnemy
     void Start()
     {
         gothit = GetComponentInChildren<ParticleSystem>();
-        if (ToAttack) InvokeRepeating("DealSentryDMG", 0f, 2f);
+        if (ToAttack)
+        {
+            InvokeRepeating("DealSentryDMG", 0f, 2f);
+            Aura.transform.localScale = new Vector3(RangeAttack, RangeAttack, RangeAttack);
+        }
     }
     void Update()
     {
@@ -86,7 +91,7 @@ public class EnemyTest : MonoBehaviour , IEnemy
     public void DealSentryDMG()
     {
         Debug.Log("DMG called");
-        Collider[] colliders = Physics.OverlapSphere(transform.position, 5);
+        Collider[] colliders = Physics.OverlapSphere(transform.position, RangeAttack);
         if (colliders.Length > 0)
         {
             foreach (Collider collider in colliders)

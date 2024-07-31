@@ -758,7 +758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7695b8fa07d333d48875c7bcbffb2707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UsableRange: 0
+  UsableRange: 15
   Target: {fileID: 0}
   RotatingPiece: {fileID: 6124373683204250502}
   RangeVis: {fileID: 3291326179057062368}

@@ -8,7 +8,6 @@ using static UnityEngine.GraphicsBuffer;
 
 public class NapalmSentry : MonoBehaviour , ISentry
 {
-    public static float StatRange = 15;
     public float UsableRange;
     public Transform Target, RotatingPiece;
     Transform nodePosition;
@@ -33,7 +32,6 @@ public class NapalmSentry : MonoBehaviour , ISentry
     {
         animator = GetComponentInChildren<Animator>();
         SphereCollider = GetComponent<SphereCollider>();
-        UsableRange = StatRange;
         RangeVis.transform.localScale = new Vector3(UsableRange, 1, UsableRange);
         SphereCollider.radius = UsableRange / 2;
         currentHP = maxHP;
@@ -98,7 +96,6 @@ public class NapalmSentry : MonoBehaviour , ISentry
                 if (EnemyQueue.Count > 0) Target = EnemyQueue[0];
             }
         }
-        UsableRange = StatRange;
     }
     public void Activate()
     {

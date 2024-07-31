@@ -14,14 +14,15 @@ public class Boss : MonoBehaviour , IEnemy
     public float damping = 2;
     int i = 0;
     public float speed;
-    public int HouseDMG, SentryDMG;
+    public int HouseDMG, SentryGroundDMG,SentrySpinDMG;
     bool ded = false;
     private ParticleSystem gothit;
     public int materialReward = 0;
     public bool AttackIng;
     public UnityEvent OnHouseReached, OnDeath;
     float AttackTimer;
-    public float fireRate;
+    public GameObject LeftHand, RightHand,RocketPrefab;
+    public bool LeftRightHAnd;
     public void TakeDMG(int DMG)
     {
         HP -= DMG;
@@ -40,6 +41,7 @@ public class Boss : MonoBehaviour , IEnemy
     void Start()
     {
         gothit = GetComponentInChildren<ParticleSystem>();
+        InvokeRepeating("PickAttack", 2f, AttackTimer);
     }
     void Update()
     {
@@ -66,27 +68,6 @@ public class Boss : MonoBehaviour , IEnemy
                 transform.rotation = Quaternion.Lerp(transform.rotation, rotation, damping);
                 StartCoroutine(WaitTillFacing(Quaternion.Lerp(transform.rotation, rotation, 1)));
             }
-            if (Time.time >= AttackTimer)
-            {
-                AttackTimer = Time.time + fireRate;
-                int whichAttack = Random.Range(0, 2);
-                switch(whichAttack)
-                {
-                    case 0:
-                        AttackOne();
-                        Debug.Log("Attack 1 called");
-                        break;
-                    case 1:
-                        Debug.Log("Attack 2 called");
-                        AttackTwo();
-                        break;
-                    case 2:
-                        Debug.Log("Attack 3 called");
-                        AttackThree();
-                        break;
-
-                }
-            }
         }
     }
     void GetNextPoint()
@@ -107,18 +88,60 @@ public class Boss : MonoBehaviour , IEnemy
         waypoints = map.ReturnList();
         currentWaypoint = waypoints[i];
     }
+    void PickAttack()
+    {
+        int whichAttack = Random.Range(0, 2);
+        switch (whichAttack)
+        {
+            case 0:
+                AttackOne();
+                Debug.Log("Attack 1 called");
+                break;
+            case 1:
+                Debug.Log("Attack 2 called");
+                AttackTwo();
+                break;
+            case 2:
+                Debug.Log("Attack 3 called");
+                AttackThree();
+                break;
 
+        }
+    }
     public void AttackOne()
     {
-
+        Collider[] colliders = Physics.OverlapSphere(transform.position, 20);
+        if (colliders.Length > 0)
+        {
+            foreach (Collider collider in colliders)
+            {
+                if (collider.GetComponent<ISentry>() != null) collider.GetComponent<ISentry>().TakeDMG(SentrySpinDMG);
+            }
+            Debug.Log("DMG dealt");
+        }
     }
     public void AttackTwo()
     {
-
+        Collider[] colliders = Physics.OverlapSphere(transform.position, 10);
+        if (colliders.Length > 0)
+        {
+            foreach (Collider collider in colliders)
+            {
+                if (collider.GetComponent<ISentry>() != null) collider.GetComponent<ISentry>().TakeDMG(SentryGroundDMG);
+            }
+            Debug.Log("DMG dealt");
+        }
     }
     public void AttackThree()
     {
-
+        if (LeftRightHAnd)
+        {
+            Instantiate(RocketPrefab,RightHand.transform.position, Quaternion.identity);
+        }
+        else
+        {
+            Instantiate(RocketPrefab, LeftHand.transform.position, Quaternion.identity);
+        }
     }
 
     public void DealHouseDMG(int DMG)
