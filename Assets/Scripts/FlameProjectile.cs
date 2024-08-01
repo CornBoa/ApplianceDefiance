@@ -21,7 +21,7 @@ public class FlameProjectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Vector3.Distance(transform.position,napalmSentry.transform.position) > napalmSentry.UsableRange && !goesOut) 
+        if(napalmSentry != null && Vector3.Distance(transform.position,napalmSentry.transform.position) > napalmSentry.UsableRange && !goesOut) 
         {
             goesOut = true;        
         }

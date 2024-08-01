@@ -6,8 +6,8 @@ using UnityEngine.Events;
 
 public class DeathHandler : MonoBehaviour
 {
-    public UnityEvent OnDeath,OnRestart;
-    public GameObject deathScreen;   
+    public UnityEvent OnDeath,OnRestart,OnWin;
+    public GameObject deathScreen,winScreen;   
     void Start()
     {
 
@@ -42,5 +42,20 @@ public class DeathHandler : MonoBehaviour
         BuildingManager.Instance.techMaterial = SavedValues.TechMat;
         WaveSpawner.Instance.ResetWave();
         WaveSpawner.Instance.StartNextWave();
+    }
+    public void Won()
+    {
+        foreach (NodeTest node in FindObjectsOfType<NodeTest>())
+        {
+            node.occupied = false;
+            if (node.sentryInstalled != null) Destroy(node.sentryInstalled.GetGO());
+            node.sentryInstalled = null;
+        }
+        foreach (EnemyTest enemy in FindObjectsOfType<EnemyTest>())
+        {
+            Destroy(enemy.gameObject);
+        }
+        winScreen.SetActive(true);
+        OnWin.Invoke();
     }
 }

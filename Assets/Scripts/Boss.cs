@@ -160,7 +160,8 @@ public class Boss : MonoBehaviour , IEnemy
     IEnumerator WaitAfterDeath()
     {
         yield return new WaitForSeconds(3);
-        OnDeath.Invoke();
+        FindObjectOfType<DeathHandler>().Won();
+        Destroy(gameObject);
     }
     public void DealSentryDMG()
     {
