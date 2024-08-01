@@ -51,7 +51,7 @@ public class Feeder : MonoBehaviour,ISentry
                 if (Vector3.Distance(transform.position, nodePosition.position) < 1)
                 {
                     walk = false;
-                    activated = true;
+                    Activate();
                 }
             }
             if ( activated ) 

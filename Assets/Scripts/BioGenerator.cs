@@ -14,17 +14,19 @@ public class BioGenerator : MonoBehaviour,ISentry
     public int price;
     int HP = 5;
     Transform nodePosition;
-    bool activated, walk;
+    bool activated = false, walk;
     Slider slider;
     NodeTest myNode;
     public void Activate()
     {
+        UnityEngine.Debug.Log("Activated");
         activated = true;
         GetComponentInChildren<ParticleSystem>().Play();
         InvokeRepeating("GenerateBioMass", resupRate, resupRate);
     }
     void GenerateBioMass() 
     {
+        UnityEngine.Debug.Log("generated bio mass");
         BuildingManager.Instance.bioMaterial += resupAmount;
     }
     public void Feed(float foodAmount)
@@ -81,7 +83,7 @@ public class BioGenerator : MonoBehaviour,ISentry
             if (Vector3.Distance(transform.position, nodePosition.position) < 1)
             {
                 walk = false;
-                activated = true;
+                Activate();
             }
         }
         if (activated)

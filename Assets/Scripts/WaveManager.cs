@@ -132,7 +132,6 @@ public class WaveSpawner : MonoBehaviour
     public void EnemyDied()
     {
         enemiesAlive--;
-        Debug.Log("Enemy died. Enemies alive: " + enemiesAlive);
     }
 
     public void ResetWave()

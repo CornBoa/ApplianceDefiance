@@ -32811,50 +32811,50 @@ MonoBehaviour:
     - text: Dr. Plaze Haulder!:Oh nooooo,a microwave!!!So scared!!!!
       rightLeftSide: 0
       choice: 0
-      portrait: {fileID: 0}
-    - text: Dr. Plaze Haulder!:What ar4e you going to do next?A damn fridge?
+      portrait: {fileID: 21300000, guid: 10ccd1530b08b6746b1f1ee6cac0b251, type: 3}
+    - text: Dr. Plaze Haulder!:What are you going to do next?A damn fridge?
       rightLeftSide: 0
       choice: 0
-      portrait: {fileID: 0}
+      portrait: {fileID: 21300000, guid: ca377550d8e47ad41b05fdb37a2866ef, type: 3}
     - text: Dr.P.Dour!:Well uuuuh
       rightLeftSide: 0
       choice: 0
-      portrait: {fileID: 0}
-    - text: "Dr. Plaze Haulder!:Oh my god don't tell me it\xE4s a fridge."
+      portrait: {fileID: 21300000, guid: 2291b759a65ed4547a622e99f90dcdc4, type: 3}
+    - text: Dr. Plaze Haulder!:Oh my god don't tell me it's a fridge.
       rightLeftSide: 0
       choice: 0
-      portrait: {fileID: 0}
+      portrait: {fileID: 21300000, guid: eeb0549ac5a6bfd4c9353d4b0e36363b, type: 3}
     - text: Dr.P.Dour!:PFFT,of course not...
       rightLeftSide: 0
       choice: 0
-      portrait: {fileID: 0}
+      portrait: {fileID: 21300000, guid: 21dc202687271ca40b3038abf1053df1, type: 3}
     - text: Dr.P.Dour!:Cause we don't have enough material...But more will arrive
         soon!
       rightLeftSide: 0
       choice: 0
-      portrait: {fileID: 0}
+      portrait: {fileID: 21300000, guid: ebb165132fe930a438e9230702450ebe, type: 3}
     - text: Dr. Plaze Haulder!:Uuuuh,well that's just sad.
       rightLeftSide: 0
       choice: 0
-      portrait: {fileID: 0}
+      portrait: {fileID: 21300000, guid: a389c1211e0489544803f2a941a75935, type: 3}
     - text: Dr. Plaze Haulder!:What a relief I don't face probnlems like that,HA!
       rightLeftSide: 0
       choice: 0
-      portrait: {fileID: 0}
+      portrait: {fileID: 21300000, guid: 3a04ec1694d99c64fa83f5df3b896e44, type: 3}
     - text: Dr.P.Dour!:Didn't you run out of meat like,few days ago?And as the matter
         of fact don't you have BIO GENERATORS.
       rightLeftSide: 0
       choice: 0
-      portrait: {fileID: 0}
+      portrait: {fileID: 21300000, guid: 91a2fcccfae56874ea77bfc4790c742d, type: 3}
     - text: Dr.P.Dour!:THAT YOU MADE USING MY COMPONENTS!!!
       rightLeftSide: 0
       choice: 0
-      portrait: {fileID: 0}
+      portrait: {fileID: 21300000, guid: 9c028ab994fa79040ac6440a96b538e6, type: 3}
     - text: Dr. Plaze Haulder!:uhh...well?Uh.....Oh wait we kinda have to fight and
         stuff so see ya!
       rightLeftSide: 0
       choice: 0
-      portrait: {fileID: 0}
+      portrait: {fileID: 21300000, guid: a389c1211e0489544803f2a941a75935, type: 3}
     - text: Dr.P.Dour!:Damn pussy
       rightLeftSide: 0
       choice: 0
@@ -40044,11 +40044,10 @@ MonoBehaviour:
   - {fileID: 4862316470988880008, guid: 02d87fce42d355c409365e719032cf02, type: 3}
   - {fileID: 2385018986238295631, guid: 5b50ce05955edb54a9b720271708efbd, type: 3}
   - {fileID: 5187275056225700681, guid: f308a4deef306b7419460b9853de24df, type: 3}
-  - {fileID: 7783248712973313225, guid: 9d56fedd541c7b947b612c5f7543dbf1, type: 3}
   currentNode: {fileID: 0}
   buildMode: 0
-  bioMaterial: 100000
-  techMaterial: 0
+  bioMaterial: 500
+  techMaterial: 250
   BioText: {fileID: 1203440826}
   TechText: {fileID: 622416857}
   PickSound: {fileID: 8300000, guid: c26122159b242004190ad9fcdd43f0eb, type: 3}
