@@ -78,6 +78,7 @@ public class DialogueManager : MonoBehaviour
         DialogueON = false;
 		DialoguePanel.SetActive (false);
 		dialogueTrigger.OnEnd.Invoke();
+		sentenceIndex = 0;
     }
 
 }

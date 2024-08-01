@@ -32724,6 +32724,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1343363046}
+  - component: {fileID: 1343363047}
+  - component: {fileID: 1343363048}
   m_Layer: 0
   m_Name: DialogueHolder
   m_TagString: Untagged
@@ -32746,6 +32748,132 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1343363047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343363045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537495ed39f94da4786dda435152c9c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - text: Dr. Plaze Haulder!:Oh well,looks who just got REKT.Easy peazy.
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: eeb0549ac5a6bfd4c9353d4b0e36363b, type: 3}
+    - text: Dr.P.Dour!:Oh please,give me a break,those were just the vacuums,we'll
+        see what you gonna sing after I send some reinforcement.
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: ebb165132fe930a438e9230702450ebe, type: 3}
+    - text: Dr. Plaze Haulder!:You're a sore loser aren't you?
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: 94e267d926b5ebd428b8b1765c26c4d6, type: 3}
+    - text: Dr.P.Dour!:Shut the hell up.
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: 28e2ec1b16682d04d949eacd677dabde, type: 3}
+  OnEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1559382252}
+        m_TargetAssemblyTypeName: WaveSpawner, Assembly-CSharp
+        m_MethodName: StartNextWave
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1343363048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343363045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537495ed39f94da4786dda435152c9c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - text: Dr. Plaze Haulder!:Oh nooooo,a microwave!!!So scared!!!!
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 0}
+    - text: Dr. Plaze Haulder!:What ar4e you going to do next?A damn fridge?
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 0}
+    - text: Dr.P.Dour!:Well uuuuh
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 0}
+    - text: "Dr. Plaze Haulder!:Oh my god don't tell me it\xE4s a fridge."
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 0}
+    - text: Dr.P.Dour!:PFFT,of course not...
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 0}
+    - text: Dr.P.Dour!:Cause we don't have enough material...But more will arrive
+        soon!
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 0}
+    - text: Dr. Plaze Haulder!:Uuuuh,well that's just sad.
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 0}
+    - text: Dr. Plaze Haulder!:What a relief I don't face probnlems like that,HA!
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 0}
+    - text: Dr.P.Dour!:Didn't you run out of meat like,few days ago?And as the matter
+        of fact don't you have BIO GENERATORS.
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 0}
+    - text: Dr.P.Dour!:THAT YOU MADE USING MY COMPONENTS!!!
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 0}
+    - text: Dr. Plaze Haulder!:uhh...well?Uh.....Oh wait we kinda have to fight and
+        stuff so see ya!
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 0}
+    - text: Dr.P.Dour!:Damn pussy
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: 28e2ec1b16682d04d949eacd677dabde, type: 3}
+  OnEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1559382252}
+        m_TargetAssemblyTypeName: WaveSpawner, Assembly-CSharp
+        m_MethodName: StartNextWave
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1344416537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35110,9 +35238,9 @@ MonoBehaviour:
     onWaveEnd:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1559382252}
-          m_TargetAssemblyTypeName: WaveSpawner, Assembly-CSharp
-          m_MethodName: StartNextWave
+        - m_Target: {fileID: 1343363047}
+          m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+          m_MethodName: TriggerDialogue
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -45034,14 +45162,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - text: Dr.P.Dour!:What a wonderful day to be a brain in a jar!
+    - text: Dr. Plaze Haulder!:Hey buddy!You're probably wanderi...
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: 101d8aba88d816f4fb038f6ade0462c1, type: 3}
+    - text: Dr.P.Dour!:Who are you talking to?Are you having hallucinations again?I
+        told you not to...
+      rightLeftSide: 1
+      choice: 0
+      portrait: {fileID: 21300000, guid: 9c028ab994fa79040ac6440a96b538e6, type: 3}
+    - text: Dr. Plaze Haulder!:Man,shut your door up,you don't know nothin.
+      rightLeftSide: 1
+      choice: 0
+      portrait: {fileID: 21300000, guid: eeb0549ac5a6bfd4c9353d4b0e36363b, type: 3}
+    - text: Dr. Plaze Haulder!:All you do is being a damn brain in a jar and making
+        your stupid 2010s style appliances,it's 2030 for gods sake!
+      rightLeftSide: 1
+      choice: 0
+      portrait: {fileID: 21300000, guid: eeb0549ac5a6bfd4c9353d4b0e36363b, type: 3}
+    - text: Dr.P.Dour!:Yeah but...
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: 21dc202687271ca40b3038abf1053df1, type: 3}
+    - text: Dr. Plaze Haulder!:Shut it tin can.
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: 94e267d926b5ebd428b8b1765c26c4d6, type: 3}
+    - text: Dr.P.Dour!:...
       rightLeftSide: 1
       choice: 0
       portrait: {fileID: 21300000, guid: 21dc202687271ca40b3038abf1053df1, type: 3}
-    - text: Dr. Plaze Haulder!:Kill yourself
-      rightLeftSide: 0
-      choice: 0
-      portrait: {fileID: 21300000, guid: eeb0549ac5a6bfd4c9353d4b0e36363b, type: 3}
     - text: Dr.P.Dour!:...
       rightLeftSide: 1
       choice: 0
@@ -45050,10 +45200,14 @@ MonoBehaviour:
       rightLeftSide: 1
       choice: 0
       portrait: {fileID: 21300000, guid: e32320a228323c847a875a885ccc3324, type: 3}
-    - text: 'Dr.P.Dour!:I will burn this planet to the ground '
+    - text: Dr.P.Dour!:I'm done being a nice neighbour...
       rightLeftSide: 1
       choice: 0
       portrait: {fileID: 21300000, guid: 91a2fcccfae56874ea77bfc4790c742d, type: 3}
+    - text: Dr.P.Dour!:PREPARE YOURSELF!
+      rightLeftSide: 1
+      choice: 0
+      portrait: {fileID: 21300000, guid: 39c4d6b975eab054c80113c3dca817ba, type: 3}
   OnEnd:
     m_PersistentCalls:
       m_Calls:
