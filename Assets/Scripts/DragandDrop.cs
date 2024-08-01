@@ -15,7 +15,7 @@ public class DragandDrop : MonoBehaviour,IBeginDragHandler, IEndDragHandler,IDra
     public NodeTest TargetNode;
     private void Awake()
     {
-        startPos = transform.position;
+        startPos = transform.localPosition;
         if (instance == null)
         {
             instance = this;
@@ -35,7 +35,7 @@ public class DragandDrop : MonoBehaviour,IBeginDragHandler, IEndDragHandler,IDra
     public void OnEndDrag(PointerEventData eventData)
     {
         beingDragged = false;
-        transform.position = startPos;
+        transform.localPosition = startPos;
         if (TargetNode != null)
         {
             TargetNode.sentryInstalled.Feed(satisfaction);

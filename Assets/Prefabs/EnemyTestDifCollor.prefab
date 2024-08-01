@@ -69,6 +69,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d01584a7e7313b4b92e20dff27ac72a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HP: 10
   waypoints:
   - {fileID: 0}
   - {fileID: 0}
@@ -82,9 +83,12 @@ MonoBehaviour:
   reachedTarget: 0
   damping: 0.04
   speed: 15
+  RangeAttack: 0
   HouseDMG: 10
   SentryDMG: 0
   materialReward: 50
+  ToAttack: 0
+  Aura: {fileID: 0}
 --- !u!54 &-246516815937455036
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -202,7 +206,7 @@ PrefabInstance:
     - target: {fileID: 677752814182394295, guid: 1f8a0382f436f77428228fb397f7767c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.666
       objectReference: {fileID: 0}
     - target: {fileID: 677752814182394295, guid: 1f8a0382f436f77428228fb397f7767c,
         type: 3}

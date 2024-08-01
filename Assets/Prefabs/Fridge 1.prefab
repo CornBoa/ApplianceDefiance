@@ -51,10 +51,12 @@ MonoBehaviour:
   reachedTarget: 0
   damping: 2
   speed: 3
+  RangeAttack: 0
   HouseDMG: 20
   SentryDMG: 0
   materialReward: 200
   ToAttack: 0
+  Aura: {fileID: 0}
 --- !u!1001 &569890548973350893
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76,7 +78,7 @@ PrefabInstance:
     - target: {fileID: 4461494084759496967, guid: 61191818411d7b143bc885e4a035e42c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.56
+      value: 1.036
       objectReference: {fileID: 0}
     - target: {fileID: 4461494084759496967, guid: 61191818411d7b143bc885e4a035e42c,
         type: 3}

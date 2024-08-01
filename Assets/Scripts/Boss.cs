@@ -20,9 +20,10 @@ public class Boss : MonoBehaviour , IEnemy
     public int materialReward = 0;
     public bool AttackIng;
     public UnityEvent OnHouseReached, OnDeath;
-    float AttackTimer;
+    public float AttackTimer;
     public GameObject LeftHand, RightHand,RocketPrefab;
     public bool LeftRightHAnd;
+    Animator animator;
     public void TakeDMG(int DMG)
     {
         HP -= DMG;
@@ -42,6 +43,7 @@ public class Boss : MonoBehaviour , IEnemy
     {
         gothit = GetComponentInChildren<ParticleSystem>();
         InvokeRepeating("PickAttack", 2f, AttackTimer);
+        animator = GetComponentInChildren<Animator>();
     }
     void Update()
     {
@@ -90,20 +92,20 @@ public class Boss : MonoBehaviour , IEnemy
     }
     void PickAttack()
     {
-        int whichAttack = Random.Range(0, 2);
+        int whichAttack = Random.Range(0, 3);
         switch (whichAttack)
         {
             case 0:
-                AttackOne();
+                animator.SetTrigger("Spin");
                 Debug.Log("Attack 1 called");
                 break;
             case 1:
                 Debug.Log("Attack 2 called");
-                AttackTwo();
+                animator.SetTrigger("Slam");
                 break;
             case 2:
                 Debug.Log("Attack 3 called");
-                AttackThree();
+                animator.SetTrigger("Shoot");
                 break;
 
         }
