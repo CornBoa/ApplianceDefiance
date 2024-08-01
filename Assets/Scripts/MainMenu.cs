@@ -10,4 +10,8 @@ public class MainMenu : MonoBehaviour
     {
        stuffTostart.Invoke();
     }
+    public void QuitThisSHit()
+    {
+        Application.Quit();
+    }
 }

@@ -24,6 +24,11 @@ public class GaymeManager : MonoBehaviour
     public void TakeDMG(int DMG)
     {
         PlayerHP -= DMG;
+        if (PlayerHP <= 0)
+        {
+            FindAnyObjectByType<DeathHandler>().Died();
+        }
+
     }
     void Update()
     {
