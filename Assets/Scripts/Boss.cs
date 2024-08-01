@@ -24,6 +24,7 @@ public class Boss : MonoBehaviour , IEnemy
     public GameObject LeftHand, RightHand,RocketPrefab;
     public bool LeftRightHAnd;
     Animator animator;
+    public ParticleSystem BoomSystem;
     public void TakeDMG(int DMG)
     {
         HP -= DMG;
@@ -34,8 +35,10 @@ public class Boss : MonoBehaviour , IEnemy
             if (!ded)
             {
                 WaveSpawner.Instance.EnemyDied();
-                ded = true;
-                OnDeath.Invoke();
+                ded = true;              
+                animator.gameObject.SetActive(false);
+                BoomSystem.Emit(1);
+                StartCoroutine(WaitAfterDeath());
             }      
         }
     }
@@ -154,7 +157,11 @@ public class Boss : MonoBehaviour , IEnemy
     {
         return gameObject;
     }
-
+    IEnumerator WaitAfterDeath()
+    {
+        yield return new WaitForSeconds(3);
+        OnDeath.Invoke();
+    }
     public void DealSentryDMG()
     {
         throw new System.NotImplementedException();
