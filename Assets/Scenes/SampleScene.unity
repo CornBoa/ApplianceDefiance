@@ -32726,6 +32726,8 @@ GameObject:
   - component: {fileID: 1343363046}
   - component: {fileID: 1343363047}
   - component: {fileID: 1343363048}
+  - component: {fileID: 1343363050}
+  - component: {fileID: 1343363049}
   m_Layer: 0
   m_Name: DialogueHolder
   m_TagString: Untagged
@@ -32837,7 +32839,7 @@ MonoBehaviour:
       rightLeftSide: 0
       choice: 0
       portrait: {fileID: 21300000, guid: a389c1211e0489544803f2a941a75935, type: 3}
-    - text: Dr. Plaze Haulder!:What a relief I don't face probnlems like that,HA!
+    - text: Dr. Plaze Haulder!:What a relief I don't face problems like that,HA!
       rightLeftSide: 0
       choice: 0
       portrait: {fileID: 21300000, guid: 3a04ec1694d99c64fa83f5df3b896e44, type: 3}
@@ -32859,6 +32861,109 @@ MonoBehaviour:
       rightLeftSide: 0
       choice: 0
       portrait: {fileID: 21300000, guid: 28e2ec1b16682d04d949eacd677dabde, type: 3}
+  OnEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1559382252}
+        m_TargetAssemblyTypeName: WaveSpawner, Assembly-CSharp
+        m_MethodName: StartNextWave
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1343363049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343363045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537495ed39f94da4786dda435152c9c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - text: Dr.P.Dour!:HOW?! HOW ARE YOU DESTROYING ALL MY GADGETS?!
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: 28e2ec1b16682d04d949eacd677dabde, type: 3}
+    - text: Dr.P.Dour!:It can't be possible! Race of machines is superior!
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: 8119c4dcf5820854c9bfb7ce76af45b0, type: 3}
+    - text: Dr.Plaze Haulder!:Pfft...It was kinda easy.
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: a389c1211e0489544803f2a941a75935, type: 3}
+    - text: Dr.Plaze Haulder!:Just another proof that bio technologies always win.
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: 3a04ec1694d99c64fa83f5df3b896e44, type: 3}
+    - text: Dr.P.Dour!:YOU WILL FACE ALL MY WRATH NOW...Prepare yourself
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: 9c028ab994fa79040ac6440a96b538e6, type: 3}
+    - text: Dr.Plaze Haulder!:Blah...blah...
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: a389c1211e0489544803f2a941a75935, type: 3}
+  OnEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1559382252}
+        m_TargetAssemblyTypeName: WaveSpawner, Assembly-CSharp
+        m_MethodName: StartNextWave
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1343363050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343363045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537495ed39f94da4786dda435152c9c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - text: Dr.Plaze Haulder!:Few fridges can't get me! Silly little brain...
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: 10ccd1530b08b6746b1f1ee6cac0b251, type: 3}
+    - text: Dr.P.Dour!:I am not done yet! Don't underestimate my skills!
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: 39c4d6b975eab054c80113c3dca817ba, type: 3}
+    - text: Dr.P.Dour!:Just wait til you run out of your meat shields...
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: 9c028ab994fa79040ac6440a96b538e6, type: 3}
+    - text: Dr.Plaze Haulder!:Don't worry, I'm good, bio generators are working just
+        fine
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: 94e267d926b5ebd428b8b1765c26c4d6, type: 3}
+    - text: Dr.P.Dour!:Alright...
+      rightLeftSide: 0
+      choice: 0
+      portrait: {fileID: 21300000, guid: e32320a228323c847a875a885ccc3324, type: 3}
   OnEnd:
     m_PersistentCalls:
       m_Calls:
