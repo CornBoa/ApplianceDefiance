@@ -107,6 +107,7 @@ public class EnemyTest : MonoBehaviour , IEnemy
         GaymeManager.Instance.TakeDMG(DMG);
         if (!ded) WaveSpawner.Instance.EnemyDied(); 
         ded = true;
+        WaveSpawner.Instance.EnemyDied();
         Destroy(gameObject);
     }
     public GameObject GetGO()

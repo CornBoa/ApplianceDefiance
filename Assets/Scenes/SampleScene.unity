@@ -35473,6 +35473,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waves:
   - enemyGroups:
+    - enemyPrefab: {fileID: 7860997693930622186, guid: 3f2e64d729bde934aa18b740fb6c6984,
+        type: 3}
+      amount: 1
+      interval: 0
+    onWaveEnd:
+      m_PersistentCalls:
+        m_Calls: []
+  - enemyGroups:
     - enemyPrefab: {fileID: 3782417679900782960, guid: bc8a40ebaa1b20b43a46f074899f908c,
         type: 3}
       amount: 5
