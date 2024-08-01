@@ -18,6 +18,7 @@ public class DeathHandler : MonoBehaviour
     }
     public void Died()
     {
+        WaveSpawner.Instance.ResetWave();
         foreach (NodeTest node in FindObjectsOfType<NodeTest>())
         {
             node.occupied = false;

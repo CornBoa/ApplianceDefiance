@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 944600747612357070}
   - component: {fileID: 4844454627847925824}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fridge 1
-  m_TagString: Untagged
+  m_TagString: Sentry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,10 +65,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 944600747612357070}
     m_Modifications:
+    - target: {fileID: 838570991911913741, guid: 61191818411d7b143bc885e4a035e42c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2695657427325676389, guid: 61191818411d7b143bc885e4a035e42c,
         type: 3}
       propertyPath: m_Name
       value: fridge
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695657427325676389, guid: 61191818411d7b143bc885e4a035e42c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523174391478391449, guid: 61191818411d7b143bc885e4a035e42c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4461494084759496967, guid: 61191818411d7b143bc885e4a035e42c,
         type: 3}
@@ -119,6 +134,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183973402254182360, guid: 61191818411d7b143bc885e4a035e42c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6631675886905803854, guid: 61191818411d7b143bc885e4a035e42c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082362109726354637, guid: 61191818411d7b143bc885e4a035e42c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
