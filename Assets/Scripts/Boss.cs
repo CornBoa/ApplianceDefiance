@@ -24,9 +24,8 @@ public class Boss : MonoBehaviour , IEnemy
     public GameObject LeftHand, RightHand,RocketPrefab;
     public bool LeftRightHAnd;
     Animator animator;
-    public ParticleSystem BoomSystem;
-    private DeathHandler death_win;
-    public GameObject WaveManager;
+    public ParticleSystem BoomSystem;    
+   
     public void TakeDMG(int DMG)
     {
         HP -= DMG;
@@ -47,8 +46,7 @@ public class Boss : MonoBehaviour , IEnemy
     }
     void Start()
     {
-        WaveManager = GameObject.Find("WaveManager");
-        death_win = WaveManager.GetComponent<DeathHandler>();
+       
         gothit = GetComponentInChildren<ParticleSystem>();
         InvokeRepeating("PickAttack", 2f, AttackTimer);
         animator = GetComponentInChildren<Animator>();
@@ -165,9 +163,8 @@ public class Boss : MonoBehaviour , IEnemy
     IEnumerator WaitAfterDeath()
     {
         yield return new WaitForSeconds(3);
-        Debug.Log("coroutine finished");
-        death_win.Won();        
-       // FindObjectOfType<DeathHandler>().Won();
+        Debug.Log("coroutine finished");              
+        FindObjectOfType<DeathHandler>().Won();
        // Destroy(gameObject);
     }
     public void DealSentryDMG()
