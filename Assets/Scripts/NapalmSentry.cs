@@ -101,6 +101,18 @@ public class NapalmSentry : MonoBehaviour , ISentry
     {
         GetComponentInChildren<ParticleSystem>().Play();
         active = true;
+        Collider[] other = Physics.OverlapSphere(transform.position, UsableRange);
+        if (other.Length > 0)
+        {
+            foreach (Collider c in other)
+            {
+                if (c.CompareTag("Enemy"))
+                {
+                    EnemyQueue.Add(c.transform);
+                }
+                if (EnemyQueue.Count > 0) Target = EnemyQueue[0];
+            }
+        }
     }
 
     public void Feed(float foodAmount)

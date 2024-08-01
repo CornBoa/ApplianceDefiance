@@ -112,7 +112,7 @@ public class Boss : MonoBehaviour , IEnemy
     }
     public void AttackOne()
     {
-        Collider[] colliders = Physics.OverlapSphere(transform.position, 20);
+        Collider[] colliders = Physics.OverlapSphere(transform.position, 5);
         if (colliders.Length > 0)
         {
             foreach (Collider collider in colliders)
@@ -124,7 +124,7 @@ public class Boss : MonoBehaviour , IEnemy
     }
     public void AttackTwo()
     {
-        Collider[] colliders = Physics.OverlapSphere(transform.position, 10);
+        Collider[] colliders = Physics.OverlapSphere(transform.position, 2);
         if (colliders.Length > 0)
         {
             foreach (Collider collider in colliders)

@@ -72,6 +72,7 @@ public class NodeTest : MonoBehaviour
                 GameObject RangeVis = sentryInstalled.GetRangeVisual();
                 if (RangeVis != null) RangeVis.SetActive(false);
                 Destroy(sentryHolo);
+                sentryInstalled.MyNode(this);
                 rend.material.color = Color.red;
                 PlapSource.pitch = Random.Range(0.95f, 1.1f);
                 PlapSource.PlayOneShot(PlapClip);
