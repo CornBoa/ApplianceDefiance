@@ -34,6 +34,7 @@ public class Boss : MonoBehaviour , IEnemy
         {
             if (!ded)
             {
+                AttackIng = true;
                 WaveSpawner.Instance.EnemyDied();
                 ded = true;              
                 animator.gameObject.SetActive(false);
