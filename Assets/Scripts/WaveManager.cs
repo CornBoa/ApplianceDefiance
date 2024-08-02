@@ -35,6 +35,8 @@ public class WaveSpawner : MonoBehaviour
 
     private List<WaveData> initialWavesData;
 
+    
+    
     void Awake()
     {
         if (Instance == null)
@@ -48,7 +50,8 @@ public class WaveSpawner : MonoBehaviour
     }
 
     void Start()
-    {
+    {        
+        
         if (layouts != null && layouts.Count > 0)
         {
             currentLayout = layouts[0];
@@ -101,8 +104,8 @@ public class WaveSpawner : MonoBehaviour
         // Trigger the onWaveEnd event
         wave.onWaveEnd.Invoke();
 
-        // Move to the next wave
-        currentWaveIndex++;
+        // Move to the next wave               
+        currentWaveIndex++;        
         waveInProgress = false;
 
         Debug.Log("Wave completed. Moving to wave index: " + currentWaveIndex);
@@ -131,7 +134,9 @@ public class WaveSpawner : MonoBehaviour
 
     public void EnemyDied()
     {
-        enemiesAlive--;
+        enemiesAlive--;      
+           
+        
     }
 
     public void ResetWave()
@@ -158,7 +163,10 @@ public class WaveSpawner : MonoBehaviour
             Debug.Log("Wave reset. Ready to restart the wave.");
         }
     }
+    
 }
+
+
 
 [System.Serializable]
 public class MapLayout

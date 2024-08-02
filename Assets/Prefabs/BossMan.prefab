@@ -73,6 +73,7 @@ MonoBehaviour:
     type: 3}
   LeftRightHAnd: 0
   BoomSystem: {fileID: 8788637124335335737}
+  WaveManager: {fileID: 0}
 --- !u!65 &5994115348643374741
 BoxCollider:
   m_ObjectHideFlags: 0
