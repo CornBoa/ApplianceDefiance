@@ -4918,7 +4918,7 @@ MonoBehaviour:
   RangeAttack: 15
   HouseDMG: 5
   SentryDMG: 2
-  materialReward: 25
+  materialReward: 100
   ToAttack: 1
   Aura: {fileID: 5471069533965261189}
 --- !u!54 &-246516815937455036

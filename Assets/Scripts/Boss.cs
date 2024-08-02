@@ -15,7 +15,7 @@ public class Boss : MonoBehaviour , IEnemy
     int i = 0;
     public float speed;
     public int HouseDMG, SentryGroundDMG,SentrySpinDMG;
-    bool ded = false;
+    public bool ded = false;
     private ParticleSystem gothit;
     public int materialReward = 0;
     public bool AttackIng;
@@ -39,7 +39,7 @@ public class Boss : MonoBehaviour , IEnemy
                 ded = true;              
                 animator.gameObject.SetActive(false);
                 BoomSystem.Emit(1);
-                StartCoroutine(WaitAfterDeath());
+                WaitAfterDeath();
             }      
         }
     }
@@ -158,9 +158,10 @@ public class Boss : MonoBehaviour , IEnemy
     {
         return gameObject;
     }
-    IEnumerator WaitAfterDeath()
+    void WaitAfterDeath()
     {
-        yield return new WaitForSeconds(3);
+        Debug.Log("EnumStarted");
+        yield return new WaitForSeconds(2);
         FindObjectOfType<DeathHandler>().Won();
         Destroy(gameObject);
     }
