@@ -46,7 +46,7 @@ public class DeathHandler : MonoBehaviour
     }
     public void Won()
     {
-        foreach (NodeTest node in FindObjectsOfType<NodeTest>())
+       /* foreach (NodeTest node in FindObjectsOfType<NodeTest>())
         {
             node.occupied = false;
             if (node.sentryInstalled != null) Destroy(node.sentryInstalled.GetGO());
@@ -55,7 +55,7 @@ public class DeathHandler : MonoBehaviour
         foreach (EnemyTest enemy in FindObjectsOfType<EnemyTest>())
         {
             Destroy(enemy.gameObject);
-        }
+        }*/
         winScreen.SetActive(true);
         OnWin.Invoke();
     }
