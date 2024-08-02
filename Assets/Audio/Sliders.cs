@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Sliders : MonoBehaviour
 {
-    public bool Volume, Sens,Music;
+    public bool Volume, Sens,Music,TimeScale;
     Slider THis;
     private void Start()
     {
@@ -20,5 +20,9 @@ public class Sliders : MonoBehaviour
     public void SetMusicVolume()
     {
         SavedValues.MusicVolume = THis.value;
+    }
+    public void SetTimescale()
+    {
+        Time.timeScale = THis.value;
     }
 }

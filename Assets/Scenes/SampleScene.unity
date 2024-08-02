@@ -34212,6 +34212,7 @@ MonoBehaviour:
   Volume: 1
   Sens: 0
   Music: 0
+  TimeScale: 0
 --- !u!1001 &1454569354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42189,6 +42190,7 @@ MonoBehaviour:
   Volume: 0
   Sens: 0
   Music: 1
+  TimeScale: 0
 --- !u!4 &1960989081 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8846456813303928807, guid: d2774317c4a3e554a9acb66d4e4404a7,
@@ -44787,7 +44789,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084164745}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
@@ -44800,7 +44802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 25.313644, y: -4.55175}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!1001 &2086243979

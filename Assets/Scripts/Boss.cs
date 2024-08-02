@@ -158,10 +158,9 @@ public class Boss : MonoBehaviour , IEnemy
     {
         return gameObject;
     }
-    void WaitAfterDeath()
+    public void WaitAfterDeath()
     {
         Debug.Log("EnumStarted");
-        yield return new WaitForSeconds(2);
         FindObjectOfType<DeathHandler>().Won();
         Destroy(gameObject);
     }
